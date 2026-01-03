@@ -64,7 +64,7 @@ def now_utc() -> datetime:
     return datetime.now(timezone.utc)
 
 
-def http_get(url: str, *, timeout: int = 25) -> requests.Response:
+def http_get(url: str, *, timeout: int = 45) -> requests.Response:
     headers = {
         "User-Agent": "Mozilla/5.0 (compatible; football-fixtures-ics/1.0; +https://github.com/JustGeary/football-fixtures-ics)",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
