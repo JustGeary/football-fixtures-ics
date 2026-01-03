@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-01-03T17:32:54.552482+00:00",
+  "divisions": [
+    {
+      "division": "U18 Division 1",
+      "slug": "u18-division-1",
+      "teams": 9,
+      "matches": 17,
+      "published_calendars": 9,
+      "last_success_utc": "2026-01-03T17:32:55.428931+00:00"
+    }
+  ]
+}
