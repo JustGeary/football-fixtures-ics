@@ -73,7 +73,7 @@ def http_get(url: str, *, timeout: int = 45) -> requests.Response:
     }
     # Simple retry with backoff + jitter
     last_exc: Optional[Exception] = None
-    for attempt in range(5):
+    for attempt in range(7):
         try:
             resp = requests.get(url, headers=headers, timeout=timeout)
             if resp.status_code == 200:
