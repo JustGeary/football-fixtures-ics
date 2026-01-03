@@ -1,0 +1,13 @@
+slug: u18-division-1
+name: "U18 Division 1"
+timezone: "Europe/London"
+default_duration_min: 120
+
+links:
+  table: "https://fulltime.thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764"
+  fixtures: "https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3"
+  results: "https://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3"
+
+# Optional: uncomment to only generate calendars for specific teams
+# include_teams:
+#   - "Poole Town FC Wessex U18 Colts"
