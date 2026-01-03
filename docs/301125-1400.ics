@@ -3,13 +3,13 @@ VERSION:2.0
 PRODID:-//football-fixtures-ics//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Lilliput U18 Athletic Fixtures
+X-WR-CALNAME:30/11/25 14:00 Fixtures
 BEGIN:VEVENT
-SUMMARY:Lilliput U18 Athletic at 01/02/26 14:00
-DTSTART:20260201T140000Z
-DTEND:20260201T160000Z
+SUMMARY:30/11/25 14:00 vs Blandford United Youth U18
+DTSTART:20251130T140000Z
+DTEND:20251130T160000Z
 DTSTAMP:20260103T194540Z
-UID:3d6eb66588833c5651719f814680ae189a0ed34d@football-fixtures-ics
+UID:d5b7721383669f245b773412727fd5c62b0ed75e@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
