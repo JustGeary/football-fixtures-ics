@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Hamworthy Recreation U18 Fixtures
 BEGIN:VEVENT
-SUMMARY:Hamworthy Recreation U18 at 18/01/26 14:00
+SUMMARY:Hamworthy Recreation U18 at L
 DTSTART:20260118T140000Z
 DTEND:20260118T160000Z
-DTSTAMP:20260103T194540Z
-UID:b342339919de9b684770728ec6a47bd46d64ace5@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:e95b8b62f2a79f8a37ba1060209fc1552a3d3e98@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi

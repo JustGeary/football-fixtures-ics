@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Portland United U18 Fixtures
 BEGIN:VEVENT
-SUMMARY:Portland United U18 at 16/11/25 14:00
+SUMMARY:Portland United U18 at L
 DTSTART:20251116T140000Z
 DTEND:20251116T160000Z
-DTSTAMP:20260103T194540Z
-UID:de041768c46a39007bb37525ed1f54d6242f0eda@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:70a7b69f91037a82c7e67a0ab8244fa53fa1334f@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
@@ -21,11 +21,11 @@ URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Portland United U18 at 01/02/26 14:00
+SUMMARY:Portland United U18 at L
 DTSTART:20260201T140000Z
 DTEND:20260201T160000Z
-DTSTAMP:20260103T194540Z
-UID:50e830c726a9b2bb011d5db0c7a859adce6d7f86@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:c6ecd8d240846123cb61de82615d4bac2f8fefc1@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi

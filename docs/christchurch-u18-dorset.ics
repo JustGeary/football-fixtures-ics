@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Christchurch U18 [Dorset] Fixtures
 BEGIN:VEVENT
-SUMMARY:Christchurch U18 [Dorset] at 11/01/26 14:00
+SUMMARY:Christchurch U18 [Dorset] at L
 DTSTART:20260111T140000Z
 DTEND:20260111T160000Z
-DTSTAMP:20260103T194540Z
-UID:c2cf7f18449b430abf5ce2e41a32c0bc69edde02@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:6977ad71ff55dc4d2be2af1c99d993ef5af7392d@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
@@ -21,11 +21,11 @@ URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christchurch U18 [Dorset] at 18/01/26 14:00
+SUMMARY:Christchurch U18 [Dorset] at L
 DTSTART:20260118T140000Z
 DTEND:20260118T160000Z
-DTSTAMP:20260103T194540Z
-UID:d2c878b0ca079e60e8a799850a6ffc71835074e6@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:8545d66bf62c155003be4909efa0c7d2e938fb17@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
@@ -37,11 +37,11 @@ URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christchurch U18 [Dorset] at 25/01/26 14:00
+SUMMARY:Christchurch U18 [Dorset] at L
 DTSTART:20260125T140000Z
 DTEND:20260125T160000Z
-DTSTAMP:20260103T194540Z
-UID:8decb5efca01458e35c899971f4478b2a40f855b@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:88a3e6b9ca360f383495552cf346e0116971b3fe@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi

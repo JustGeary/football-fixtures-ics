@@ -1,138 +1,172 @@
 [
   {
     "kickoff_local": "2025-11-16T14:00:00+00:00",
-    "home": "Portland United U18",
-    "away": "Blandford United Youth U18",
+    "home": "L",
+    "away": "Portland United U18",
+    "competition": "",
     "result_home": null,
     "result_away": null,
-    "status": "Scheduled"
+    "status": "Scheduled",
+    "source": "fixtures"
   },
   {
     "kickoff_local": "2025-11-23T14:00:00+00:00",
-    "home": "Blandford United Youth U18",
-    "away": "Christchurch U18 [Dorset]",
+    "home": "L",
+    "away": "Blandford United Youth U18",
+    "competition": "",
     "result_home": null,
     "result_away": null,
-    "status": "Scheduled"
+    "status": "Scheduled",
+    "source": "fixtures"
   },
   {
     "kickoff_local": "2025-11-30T14:00:00+00:00",
-    "home": "Blandford United Youth U18",
-    "away": "Hamworthy Recreation U18",
+    "home": "L",
+    "away": "Blandford United Youth U18",
+    "competition": "",
     "result_home": null,
     "result_away": null,
-    "status": "Scheduled"
+    "status": "Scheduled",
+    "source": "fixtures"
   },
   {
     "kickoff_local": "2025-12-07T14:00:00+00:00",
-    "home": "Poole Town FC Wessex U18 Colts",
-    "away": "Blandford United Youth U18",
+    "home": "L",
+    "away": "Poole Town FC Wessex U18 Colts",
+    "competition": "",
     "result_home": null,
     "result_away": null,
-    "status": "Scheduled"
+    "status": "Scheduled",
+    "source": "fixtures"
   },
   {
     "kickoff_local": "2026-01-04T14:00:00+00:00",
-    "home": "Holt United Youth U18",
-    "away": "Hamworthy Recreation U18",
+    "home": "L",
+    "away": "Holt United Youth U18",
+    "competition": "",
     "result_home": null,
     "result_away": null,
-    "status": "Scheduled"
+    "status": "Scheduled",
+    "source": "fixtures"
   },
   {
     "kickoff_local": "2026-01-04T14:00:00+00:00",
-    "home": "Poole Town FC Wessex U18 Colts",
-    "away": "Portland United U18",
+    "home": "L",
+    "away": "Poole Town FC Wessex U18 Colts",
+    "competition": "",
     "result_home": null,
     "result_away": null,
-    "status": "Scheduled"
+    "status": "Scheduled",
+    "source": "fixtures"
   },
   {
     "kickoff_local": "2026-01-04T14:00:00+00:00",
-    "home": "Swanage Town And Herston U18",
-    "away": "Christchurch U18 [Dorset]",
+    "home": "L",
+    "away": "Swanage Town And Herston U18",
+    "competition": "",
     "result_home": null,
     "result_away": null,
-    "status": "Scheduled"
+    "status": "Scheduled",
+    "source": "fixtures"
   },
   {
     "kickoff_local": "2026-01-04T14:00:00+00:00",
-    "home": "Westland Sports U18",
-    "away": "Lilliput U18 Athletic",
+    "home": "L",
+    "away": "Westland Sports U18",
+    "competition": "",
     "result_home": null,
     "result_away": null,
-    "status": "Scheduled"
+    "status": "Scheduled",
+    "source": "fixtures"
   },
   {
     "kickoff_local": "2026-01-11T14:00:00+00:00",
-    "home": "Christchurch U18 [Dorset]",
-    "away": "Poole Town FC Wessex U18 Colts",
+    "home": "L",
+    "away": "Christchurch U18 [Dorset]",
+    "competition": "",
     "result_home": null,
     "result_away": null,
-    "status": "Scheduled"
+    "status": "Scheduled",
+    "source": "fixtures"
   },
   {
     "kickoff_local": "2026-01-18T14:00:00+00:00",
-    "home": "Christchurch U18 [Dorset]",
-    "away": "Portland United U18",
+    "home": "L",
+    "away": "Christchurch U18 [Dorset]",
+    "competition": "",
     "result_home": null,
     "result_away": null,
-    "status": "Scheduled"
+    "status": "Scheduled",
+    "source": "fixtures"
   },
   {
     "kickoff_local": "2026-01-18T14:00:00+00:00",
-    "home": "Hamworthy Recreation U18",
-    "away": "Swanage Town And Herston U18",
-    "result_home": null,
-    "result_away": null,
-    "status": "Scheduled"
-  },
-  {
-    "kickoff_local": "2026-01-18T14:00:00+00:00",
-    "home": "Westland Sports U18",
-    "away": "Poole Town FC Wessex U18 Colts",
-    "result_home": null,
-    "result_away": null,
-    "status": "Scheduled"
-  },
-  {
-    "kickoff_local": "2026-01-25T14:00:00+00:00",
-    "home": "Christchurch U18 [Dorset]",
-    "away": "Lilliput U18 Athletic",
-    "result_home": null,
-    "result_away": null,
-    "status": "Scheduled"
-  },
-  {
-    "kickoff_local": "2026-01-25T14:00:00+00:00",
-    "home": "Poole Town FC Wessex U18 Colts",
-    "away": "Holt United Youth U18",
-    "result_home": null,
-    "result_away": null,
-    "status": "Scheduled"
-  },
-  {
-    "kickoff_local": "2026-01-25T14:00:00+00:00",
-    "home": "Westland Sports U18",
+    "home": "L",
     "away": "Hamworthy Recreation U18",
+    "competition": "",
     "result_home": null,
     "result_away": null,
-    "status": "Scheduled"
+    "status": "Scheduled",
+    "source": "fixtures"
   },
   {
-    "kickoff_local": "2026-02-01T14:00:00+00:00",
-    "home": "Lilliput U18 Athletic",
-    "away": "Swanage Town And Herston U18",
-    "result_home": null,
-    "result_away": null,
-    "status": "Scheduled"
-  },
-  {
-    "kickoff_local": "2026-02-01T14:00:00+00:00",
-    "home": "Portland United U18",
+    "kickoff_local": "2026-01-18T14:00:00+00:00",
+    "home": "L",
     "away": "Westland Sports U18",
+    "competition": "",
     "result_home": null,
     "result_away": null,
-    "status": "Scheduled"
+    "status": "Scheduled",
+    "source": "fixtures"
+  },
+  {
+    "kickoff_local": "2026-01-25T14:00:00+00:00",
+    "home": "L",
+    "away": "Christchurch U18 [Dorset]",
+    "competition": "",
+    "result_home": null,
+    "result_away": null,
+    "status": "Scheduled",
+    "source": "fixtures"
+  },
+  {
+    "kickoff_local": "2026-01-25T14:00:00+00:00",
+    "home": "L",
+    "away": "Poole Town FC Wessex U18 Colts",
+    "competition": "",
+    "result_home": null,
+    "result_away": null,
+    "status": "Scheduled",
+    "source": "fixtures"
+  },
+  {
+    "kickoff_local": "2026-01-25T14:00:00+00:00",
+    "home": "L",
+    "away": "Westland Sports U18",
+    "competition": "",
+    "result_home": null,
+    "result_away": null,
+    "status": "Scheduled",
+    "source": "fixtures"
+  },
+  {
+    "kickoff_local": "2026-02-01T14:00:00+00:00",
+    "home": "L",
+    "away": "Lilliput U18 Athletic",
+    "competition": "",
+    "result_home": null,
+    "result_away": null,
+    "status": "Scheduled",
+    "source": "fixtures"
+  },
+  {
+    "kickoff_local": "2026-02-01T14:00:00+00:00",
+    "home": "L",
+    "away": "Portland United U18",
+    "competition": "",
+    "result_home": null,
+    "result_away": null,
+    "status": "Scheduled",
+    "source": "fixtures"
   }
 ]

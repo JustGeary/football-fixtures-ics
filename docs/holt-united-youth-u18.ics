@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Holt United Youth U18 Fixtures
 BEGIN:VEVENT
-SUMMARY:Holt United Youth U18 at 04/01/26 14:00
+SUMMARY:Holt United Youth U18 at L
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
-DTSTAMP:20260103T194540Z
-UID:f3e301c7b49bd551bedc021464e3ad9839e87365@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:a9a29170aba168e26ef142c691511fab77422e8f@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi

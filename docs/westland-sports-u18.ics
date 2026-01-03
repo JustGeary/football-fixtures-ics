@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Westland Sports U18 Fixtures
 BEGIN:VEVENT
-SUMMARY:Westland Sports U18 at 04/01/26 14:00
+SUMMARY:Westland Sports U18 at L
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
-DTSTAMP:20260103T194540Z
-UID:9e74f78489157b2c2b679ec55343af9f14251b8d@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:127e451094b93d2adb04da6bcfb8db6245be17a3@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
@@ -21,11 +21,11 @@ URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Westland Sports U18 at 18/01/26 14:00
+SUMMARY:Westland Sports U18 at L
 DTSTART:20260118T140000Z
 DTEND:20260118T160000Z
-DTSTAMP:20260103T194540Z
-UID:e7c5fb9fe92696983715f19a59ffdb3743daf3db@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:7dba5a3110a4076a06365bc9452806defde26f54@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
@@ -37,11 +37,11 @@ URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Westland Sports U18 at 25/01/26 14:00
+SUMMARY:Westland Sports U18 at L
 DTSTART:20260125T140000Z
 DTEND:20260125T160000Z
-DTSTAMP:20260103T194540Z
-UID:292415da5d1fcb67990bf9d0a26a8d3956f20a9c@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:059e599799c4f0acf0977d2c1d99c0ee78dc5c1e@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi

@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Poole Town FC Wessex U18 Colts Fixtures
 BEGIN:VEVENT
-SUMMARY:Poole Town FC Wessex U18 Colts at 07/12/25 14:00
+SUMMARY:Poole Town FC Wessex U18 Colts at L
 DTSTART:20251207T140000Z
 DTEND:20251207T160000Z
-DTSTAMP:20260103T194540Z
-UID:f7beb7a9c892b540ff6ccef0e703d5cd03be627c@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:f9b44d1275bb9bae5a8d10e382af2803a568d106@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
@@ -21,11 +21,11 @@ URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Poole Town FC Wessex U18 Colts at 04/01/26 14:00
+SUMMARY:Poole Town FC Wessex U18 Colts at L
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
-DTSTAMP:20260103T194540Z
-UID:24313a8cc6e7ec3e125aab4ceef2da407c0b0639@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:3647789046b77aaa951671dfdd5d45cfccc00ab6@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
@@ -37,11 +37,11 @@ URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Poole Town FC Wessex U18 Colts at 25/01/26 14:00
+SUMMARY:Poole Town FC Wessex U18 Colts at L
 DTSTART:20260125T140000Z
 DTEND:20260125T160000Z
-DTSTAMP:20260103T194540Z
-UID:1a6520c76cb78b11bee8780cad411fece978f415@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:4112c1ff23a3e36d5d4ccfd52ede307774505ec5@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi

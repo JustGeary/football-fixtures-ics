@@ -5,11 +5,11 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Blandford United Youth U18 Fixtures
 BEGIN:VEVENT
-SUMMARY:Blandford United Youth U18 at 23/11/25 14:00
+SUMMARY:Blandford United Youth U18 at L
 DTSTART:20251123T140000Z
 DTEND:20251123T160000Z
-DTSTAMP:20260103T194540Z
-UID:f220b72f3e8e163e770062165ca1c84d89eebb77@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:3e35fd52d4c0d2b2d42cd517423f9cc9b4eae2ad@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
@@ -21,11 +21,11 @@ URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Blandford United Youth U18 at 30/11/25 14:00
+SUMMARY:Blandford United Youth U18 at L
 DTSTART:20251130T140000Z
 DTEND:20251130T160000Z
-DTSTAMP:20260103T194540Z
-UID:f39d58a27970e88c47909fe6508c501c95a896fe@football-fixtures-ics
+DTSTAMP:20260103T200215Z
+UID:b09fb0962c05c7438aad59b7fbaf0159082e1e39@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
