@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts vs Blandford United Youth U18
 DTSTART;TZID=Europe/London:20251207T140000
 DTEND;TZID=Europe/London:20251207T160000
-DTSTAMP:20260103T174926Z
+DTSTAMP:20260103T181003Z
 UID:256b4a378eb447a4f06878eb827b5f185dd62a63@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts vs Portland United U18
 DTSTART;TZID=Europe/London:20260104T140000
 DTEND;TZID=Europe/London:20260104T160000
-DTSTAMP:20260103T174926Z
+DTSTAMP:20260103T181003Z
 UID:8defded5fcb30c0bee6edf31a1cf89689f640a7a@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
@@ -41,7 +41,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts at Christchurch U18 [Dorset]
 DTSTART;TZID=Europe/London:20260111T140000
 DTEND;TZID=Europe/London:20260111T160000
-DTSTAMP:20260103T174926Z
+DTSTAMP:20260103T181003Z
 UID:d050d7a16746fac45a8fa21d84832178cf98faad@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
@@ -57,7 +57,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts at Westland Sports U18
 DTSTART;TZID=Europe/London:20260118T140000
 DTEND;TZID=Europe/London:20260118T160000
-DTSTAMP:20260103T174926Z
+DTSTAMP:20260103T181003Z
 UID:7ba622653698d37ddeb3ee80a2f8b66dc650e181@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
@@ -73,7 +73,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts vs Holt United Youth U18
 DTSTART;TZID=Europe/London:20260125T140000
 DTEND;TZID=Europe/London:20260125T160000
-DTSTAMP:20260103T174926Z
+DTSTAMP:20260103T181003Z
 UID:575fc0f78c49773dd1bc44bd3601f86aee3d5d67@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se

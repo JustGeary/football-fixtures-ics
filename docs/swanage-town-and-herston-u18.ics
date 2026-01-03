@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 vs Christchurch U18 [Dorset]
 DTSTART;TZID=Europe/London:20260104T140000
 DTEND;TZID=Europe/London:20260104T160000
-DTSTAMP:20260103T174926Z
+DTSTAMP:20260103T181003Z
 UID:7f70dc313a45707be51fb2a6cd1c2a446b60c2e2@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
@@ -25,7 +25,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 at Hamworthy Recreation U18
 DTSTART;TZID=Europe/London:20260118T140000
 DTEND;TZID=Europe/London:20260118T160000
-DTSTAMP:20260103T174926Z
+DTSTAMP:20260103T181003Z
 UID:367a2296add0550fbe6cb296c0772092081642df@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
@@ -41,7 +41,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 at Lilliput U18 Athletic
 DTSTART;TZID=Europe/London:20260201T140000
 DTEND;TZID=Europe/London:20260201T160000
-DTSTAMP:20260103T174926Z
+DTSTAMP:20260103T181003Z
 UID:5c312f97c9cbc545965d9e0ea83a9698a654f56c@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
