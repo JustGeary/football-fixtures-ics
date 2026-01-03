@@ -5,11 +5,43 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Christchurch U18 [Dorset] Fixtures
 BEGIN:VEVENT
-SUMMARY:Christchurch U18 [Dorset] at L
+SUMMARY:Christchurch U18 [Dorset] at Blandford United Youth U18
+DTSTART:20251123T140000Z
+DTEND:20251123T160000Z
+DTSTAMP:20260103T201006Z
+UID:a0044cbaa4b68df521e3e042f4a11849945bc0ef@football-fixtures-ics
+DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
+ lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
+ lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
+ xtures/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
+ 6764&selectedRelatedFixtureOption=3\nResults: https://fulltime.thefa.com/r
+ esults/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
+ 6764&selectedRelatedFixtureOption=3
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Christchurch U18 [Dorset] at Swanage Town And Herston U18
+DTSTART:20260104T140000Z
+DTEND:20260104T160000Z
+DTSTAMP:20260103T201006Z
+UID:2a4ff97919086c03da6d4195f6c476d5c57f470d@football-fixtures-ics
+DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
+ lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
+ lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
+ xtures/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
+ 6764&selectedRelatedFixtureOption=3\nResults: https://fulltime.thefa.com/r
+ esults/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
+ 6764&selectedRelatedFixtureOption=3
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Christchurch U18 [Dorset] vs Poole Town FC Wessex U18 Colts
 DTSTART:20260111T140000Z
 DTEND:20260111T160000Z
-DTSTAMP:20260103T200215Z
-UID:6977ad71ff55dc4d2be2af1c99d993ef5af7392d@football-fixtures-ics
+DTSTAMP:20260103T201006Z
+UID:d15e7cfa40e6f54ca5c418286274bce017a02bd2@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
@@ -21,11 +53,11 @@ URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christchurch U18 [Dorset] at L
+SUMMARY:Christchurch U18 [Dorset] vs Portland United U18
 DTSTART:20260118T140000Z
 DTEND:20260118T160000Z
-DTSTAMP:20260103T200215Z
-UID:8545d66bf62c155003be4909efa0c7d2e938fb17@football-fixtures-ics
+DTSTAMP:20260103T201006Z
+UID:e56d35e76ecc717a2ffe91fc304bbb4dd098d352@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
@@ -37,11 +69,11 @@ URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Christchurch U18 [Dorset] at L
+SUMMARY:Christchurch U18 [Dorset] vs Lilliput U18 Athletic
 DTSTART:20260125T140000Z
 DTEND:20260125T160000Z
-DTSTAMP:20260103T200215Z
-UID:88a3e6b9ca360f383495552cf346e0116971b3fe@football-fixtures-ics
+DTSTAMP:20260103T201006Z
+UID:2dd7901a33a22833b517334906ce72552d4fc1ce@football-fixtures-ics
 DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
  lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
  lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
