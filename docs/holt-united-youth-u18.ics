@@ -4,19 +4,20 @@ PRODID:-//football-fixtures-ics//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Holt United Youth U18 Fixtures
+X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 SUMMARY:Holt United Youth U18 vs Hamworthy Recreation U18
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
-DTSTAMP:20260103T201006Z
-UID:285093a9723df08e3a4400833a12712c53e009ff@football-fixtures-ics
-DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
- lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
- lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
- xtures/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
- 6764&selectedRelatedFixtureOption=3\nResults: https://fulltime.thefa.com/r
- esults/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
- 6764&selectedRelatedFixtureOption=3
+DTSTAMP:20260103T203450Z
+UID:7bb8adbfdf900f8c1627bbb0d939d04b05adfe2d@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
+ /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
+ 0682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: 
+ https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&se
+ lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults:
+  https://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&se
+ lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
@@ -24,15 +25,15 @@ BEGIN:VEVENT
 SUMMARY:Holt United Youth U18 at Poole Town FC Wessex U18 Colts
 DTSTART:20260125T140000Z
 DTEND:20260125T160000Z
-DTSTAMP:20260103T201006Z
-UID:39b26d2f2862051998d9b7c8221ea8914b2be4ad@football-fixtures-ics
-DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
- lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
- lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
- xtures/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
- 6764&selectedRelatedFixtureOption=3\nResults: https://fulltime.thefa.com/r
- esults/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
- 6764&selectedRelatedFixtureOption=3
+DTSTAMP:20260103T203450Z
+UID:b0b7d9dcce1ada021d3eae4628af322ec41f5440@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
+ /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
+ 0682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: 
+ https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&se
+ lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults:
+  https://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&se
+ lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT

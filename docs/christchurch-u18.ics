@@ -3,14 +3,30 @@ VERSION:2.0
 PRODID:-//football-fixtures-ics//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Westland Sports U18 Fixtures
+X-WR-CALNAME:Christchurch U18 Fixtures
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-SUMMARY:Westland Sports U18 vs Lilliput U18 Athletic
+SUMMARY:Christchurch U18 at Blandford United Youth U18
+DTSTART:20251123T140000Z
+DTEND:20251123T160000Z
+DTSTAMP:20260103T203450Z
+UID:e1f09196b59adc06505e330da31731db60ae5b2e@football-fixtures-ics
+DESCRIPTION:Competition: Postponed\nTable: https://fulltime.thefa.com/tabl
+ e.html?league=3520598&selectedSeason=582396739&selectedDivision=938310682&
+ selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: https
+ ://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&selecte
+ dFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults: http
+ s://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&selecte
+ dFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Christchurch U18 at Swanage Town And Herston U18
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
 DTSTAMP:20260103T203450Z
-UID:13401710cb9855a64d696e1bb6ec867ce67b4497@football-fixtures-ics
+UID:04f7c26cb93a1d48b86aea9d577ea6d18d1917eb@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
  /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
  0682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: 
@@ -22,11 +38,27 @@ URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Westland Sports U18 vs Poole Town FC Wessex U18 Colts
+SUMMARY:Christchurch U18 vs Poole Town FC Wessex U18 Colts
+DTSTART:20260111T140000Z
+DTEND:20260111T160000Z
+DTSTAMP:20260103T203450Z
+UID:7a809487531de2c8ff123695152513975847caf4@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
+ /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
+ 0682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: 
+ https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&se
+ lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults:
+  https://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&se
+ lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Christchurch U18 vs Portland United U18
 DTSTART:20260118T140000Z
 DTEND:20260118T160000Z
 DTSTAMP:20260103T203450Z
-UID:c9af709e2d9ff044f4a451df80f753153c7dadf6@football-fixtures-ics
+UID:f88fd60c9f32fa045dc3316dccb38ff355ba8453@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
  /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
  0682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: 
@@ -38,27 +70,11 @@ URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Westland Sports U18 vs Hamworthy Recreation U18
+SUMMARY:Christchurch U18 vs Lilliput U18 Athletic
 DTSTART:20260125T140000Z
 DTEND:20260125T160000Z
 DTSTAMP:20260103T203450Z
-UID:72ef6e0e59ca2295cd0d43b663e722c35ea4837e@football-fixtures-ics
-DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
- /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
- 0682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: 
- https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&se
- lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults:
-  https://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&se
- lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
-URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
- 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Westland Sports U18 at Portland United U18
-DTSTART:20260201T140000Z
-DTEND:20260201T160000Z
-DTSTAMP:20260103T203450Z
-UID:7fe21eff48f5efafee258a67c3aa32543073e293@football-fixtures-ics
+UID:b074a457affb458d5a98eeb1eadf2aa78f22ddea@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
  /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
  0682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: 

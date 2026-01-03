@@ -4,19 +4,20 @@ PRODID:-//football-fixtures-ics//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Hamworthy Recreation U18 Fixtures
+X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 at Blandford United Youth U18
 DTSTART:20251130T140000Z
 DTEND:20251130T160000Z
-DTSTAMP:20260103T201006Z
-UID:f81961e0d7312e360c9eda907c0ffbe4f9c4de93@football-fixtures-ics
-DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
- lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
- lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
- xtures/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
- 6764&selectedRelatedFixtureOption=3\nResults: https://fulltime.thefa.com/r
- esults/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
- 6764&selectedRelatedFixtureOption=3
+DTSTAMP:20260103T203450Z
+UID:8e553519e5a645dde7a646f8d7be87dbdcca0d72@football-fixtures-ics
+DESCRIPTION:Competition: Postponed\nTable: https://fulltime.thefa.com/tabl
+ e.html?league=3520598&selectedSeason=582396739&selectedDivision=938310682&
+ selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: https
+ ://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&selecte
+ dFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults: http
+ s://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&selecte
+ dFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
@@ -24,15 +25,15 @@ BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 at Holt United Youth U18
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
-DTSTAMP:20260103T201006Z
-UID:d63961d525db9992f35f57610b92fd4903197b5e@football-fixtures-ics
-DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
- lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
- lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
- xtures/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
- 6764&selectedRelatedFixtureOption=3\nResults: https://fulltime.thefa.com/r
- esults/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
- 6764&selectedRelatedFixtureOption=3
+DTSTAMP:20260103T203450Z
+UID:80bd132118e427bd384d4877224dedb6e2724c63@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
+ /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
+ 0682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: 
+ https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&se
+ lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults:
+  https://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&se
+ lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
@@ -40,15 +41,15 @@ BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 vs Swanage Town And Herston U18
 DTSTART:20260118T140000Z
 DTEND:20260118T160000Z
-DTSTAMP:20260103T201006Z
-UID:7bf06a5c5ad6169592f85878ae2d21eb36b3c622@football-fixtures-ics
-DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
- lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
- lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
- xtures/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
- 6764&selectedRelatedFixtureOption=3\nResults: https://fulltime.thefa.com/r
- esults/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
- 6764&selectedRelatedFixtureOption=3
+DTSTAMP:20260103T203450Z
+UID:0fd9ea9d7834cc11c4b0700e480ad2e81638c490@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
+ /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
+ 0682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: 
+ https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&se
+ lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults:
+  https://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&se
+ lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
@@ -56,15 +57,15 @@ BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 at Westland Sports U18
 DTSTART:20260125T140000Z
 DTEND:20260125T160000Z
-DTSTAMP:20260103T201006Z
-UID:46a10a0a235eecca482c8db44c113e6c489a6fcb@football-fixtures-ics
-DESCRIPTION:Table: https://fulltime.thefa.com/table.html?league=3520598&se
- lectedSeason=582396739&selectedDivision=938310682&selectedCompetition=0&se
- lectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fi
- xtures/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
- 6764&selectedRelatedFixtureOption=3\nResults: https://fulltime.thefa.com/r
- esults/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_79578
- 6764&selectedRelatedFixtureOption=3
+DTSTAMP:20260103T203450Z
+UID:1a383598f2fed141dbf86e38001a16bdac6526dc@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
+ /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
+ 0682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: 
+ https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&se
+ lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults:
+  https://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&se
+ lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
