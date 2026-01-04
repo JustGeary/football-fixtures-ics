@@ -6,18 +6,240 @@ METHOD:PUBLISH
 X-WR-CALNAME:Lilliput U18 Athletic Fixtures
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-SUMMARY:Lilliput U18 Athletic at Westland Sports U18
+SUMMARY:Lilliput U18 Athletic at Blandford United Youth U18
+DTSTART:20250907T151500Z
+DTEND:20250907T171500Z
+DTSTAMP:20260104T145748Z
+UID:1446591b94bb076ad86078e7311b825f4c2b4cb2@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Blandford United
+  Youth U18 2–3 Lilliput U18 Athletic\nTable: https://fulltime.thefa.com/
+ table.html?league=3520598&selectedSeason=582396739&selectedDivision=938310
+ 682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: h
+ ttps://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&sel
+ ectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults: 
+ https://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&sel
+ ectedFixtureGroupAgeGroup=0&previousSelectedFixtureGroupAgeGroup=&selected
+ FixtureGroupKey=1_795786764&previousSelectedFixtureGroupKey=1_795786764&se
+ lectedDateCode=&selectedRelatedFixtureOption=3&selectedClub=&previousSelec
+ tedClub=&selectedTeam=
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lilliput U18 Athletic vs Christchurch U18
+DTSTART:20250914T104500Z
+DTEND:20250914T124500Z
+DTSTAMP:20260104T145748Z
+UID:89522b29a536c19ca4a4cff6a93c0bf23b8d0a48@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Lilliput U18 Ath
+ letic 2–3 Christchurch U18\nTable: https://fulltime.thefa.com/table.html
+ ?league=3520598&selectedSeason=582396739&selectedDivision=938310682&select
+ edCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: https://ful
+ ltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&selectedFixtu
+ reGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults: https://fu
+ lltime.thefa.com/results/1/100.html?selectedSeason=582396739&selectedFixtu
+ reGroupAgeGroup=0&previousSelectedFixtureGroupAgeGroup=&selectedFixtureGro
+ upKey=1_795786764&previousSelectedFixtureGroupKey=1_795786764&selectedDate
+ Code=&selectedRelatedFixtureOption=3&selectedClub=&previousSelectedClub=&s
+ electedTeam=
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lilliput U18 Athletic at Holt United Youth U18
+DTSTART:20250921T130000Z
+DTEND:20250921T150000Z
+DTSTAMP:20260104T145748Z
+UID:c4bbb300aee281609f4c940754f11265bf96f60b@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Holt United Yout
+ h U18 4–0 Lilliput U18 Athletic\nTable: https://fulltime.thefa.com/table
+ .html?league=3520598&selectedSeason=582396739&selectedDivision=938310682&s
+ electedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: https:
+ //fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&selected
+ FixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults: https
+ ://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&selected
+ FixtureGroupAgeGroup=0&previousSelectedFixtureGroupAgeGroup=&selectedFixtu
+ reGroupKey=1_795786764&previousSelectedFixtureGroupKey=1_795786764&selecte
+ dDateCode=&selectedRelatedFixtureOption=3&selectedClub=&previousSelectedCl
+ ub=&selectedTeam=
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lilliput U18 Athletic vs Westland Sports U18
+DTSTART:20250928T130000Z
+DTEND:20250928T150000Z
+DTSTAMP:20260104T145748Z
+UID:30d653533ed1c033f5b7bf5722fdbc9eaaa00ac8@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Lilliput U18 Ath
+ letic 2–6 Westland Sports U18\nNotes: (HT 0-1)\nTable: https://fulltime.
+ thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
+ ion=938310682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nF
+ ixtures: https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582
+ 396739&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\
+ nResults: https://fulltime.thefa.com/results/1/100.html?selectedSeason=582
+ 396739&selectedFixtureGroupAgeGroup=0&previousSelectedFixtureGroupAgeGroup
+ =&selectedFixtureGroupKey=1_795786764&previousSelectedFixtureGroupKey=1_79
+ 5786764&selectedDateCode=&selectedRelatedFixtureOption=3&selectedClub=&pre
+ viousSelectedClub=&selectedTeam=
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lilliput U18 Athletic at Hamworthy Recreation U18
+DTSTART:20251012T130000Z
+DTEND:20251012T150000Z
+DTSTAMP:20260104T145748Z
+UID:4e37d793079e18330bbcebc2fc006261cb57220e@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Hamworthy Recrea
+ tion U18 2–3 Lilliput U18 Athletic\nTable: https://fulltime.thefa.com/ta
+ ble.html?league=3520598&selectedSeason=582396739&selectedDivision=93831068
+ 2&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: htt
+ ps://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&selec
+ tedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults: ht
+ tps://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&selec
+ tedFixtureGroupAgeGroup=0&previousSelectedFixtureGroupAgeGroup=&selectedFi
+ xtureGroupKey=1_795786764&previousSelectedFixtureGroupKey=1_795786764&sele
+ ctedDateCode=&selectedRelatedFixtureOption=3&selectedClub=&previousSelecte
+ dClub=&selectedTeam=
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lilliput U18 Athletic at Poole Town FC Wessex U18 Colts
+DTSTART:20251019T130000Z
+DTEND:20251019T150000Z
+DTSTAMP:20260104T145748Z
+UID:d1a4475c2f3eef193919ffc6b0a9ecc46c538d8f@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Poole Town FC We
+ ssex U18 Colts 3–1 Lilliput U18 Athletic\nNotes: (HT 1-1)\nTable: https:
+ //fulltime.thefa.com/table.html?league=3520598&selectedSeason=582396739&se
+ lectedDivision=938310682&selectedCompetition=0&selectedFixtureGroupKey=1_7
+ 95786764\nFixtures: https://fulltime.thefa.com/fixtures/1/100.html?selecte
+ dSeason=582396739&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtu
+ reOption=3\nResults: https://fulltime.thefa.com/results/1/100.html?selecte
+ dSeason=582396739&selectedFixtureGroupAgeGroup=0&previousSelectedFixtureGr
+ oupAgeGroup=&selectedFixtureGroupKey=1_795786764&previousSelectedFixtureGr
+ oupKey=1_795786764&selectedDateCode=&selectedRelatedFixtureOption=3&select
+ edClub=&previousSelectedClub=&selectedTeam=
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lilliput U18 Athletic at Portland United U18
+DTSTART:20251102T140000Z
+DTEND:20251102T160000Z
+DTSTAMP:20260104T145748Z
+UID:05547c3d93a16c421f398342c3a86216235cb9c0@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Portland United 
+ U18 1–2 Lilliput U18 Athletic\nNotes: (HT 1-0)\nTable: https://fulltime.
+ thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
+ ion=938310682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nF
+ ixtures: https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582
+ 396739&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\
+ nResults: https://fulltime.thefa.com/results/1/100.html?selectedSeason=582
+ 396739&selectedFixtureGroupAgeGroup=0&previousSelectedFixtureGroupAgeGroup
+ =&selectedFixtureGroupKey=1_795786764&previousSelectedFixtureGroupKey=1_79
+ 5786764&selectedDateCode=&selectedRelatedFixtureOption=3&selectedClub=&pre
+ viousSelectedClub=&selectedTeam=
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lilliput U18 Athletic vs Hamworthy Recreation U18
+DTSTART:20251116T140000Z
+DTEND:20251116T160000Z
+DTSTAMP:20260104T145748Z
+UID:bc46465596c65eeb15a08ba9d19c7a48f9efff7f@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Lilliput U18 Ath
+ letic 2–4 Hamworthy Recreation U18\nTable: https://fulltime.thefa.com/ta
+ ble.html?league=3520598&selectedSeason=582396739&selectedDivision=93831068
+ 2&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: htt
+ ps://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&selec
+ tedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults: ht
+ tps://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&selec
+ tedFixtureGroupAgeGroup=0&previousSelectedFixtureGroupAgeGroup=&selectedFi
+ xtureGroupKey=1_795786764&previousSelectedFixtureGroupKey=1_795786764&sele
+ ctedDateCode=&selectedRelatedFixtureOption=3&selectedClub=&previousSelecte
+ dClub=&selectedTeam=
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lilliput U18 Athletic vs Holt United Youth U18
+DTSTART:20251123T140000Z
+DTEND:20251123T160000Z
+DTSTAMP:20260104T145748Z
+UID:b7716783eb1b356284c70a21dfe4cd331f37732d@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Lilliput U18 Ath
+ letic 3–4 Holt United Youth U18\nTable: https://fulltime.thefa.com/table
+ .html?league=3520598&selectedSeason=582396739&selectedDivision=938310682&s
+ electedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: https:
+ //fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&selected
+ FixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults: https
+ ://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&selected
+ FixtureGroupAgeGroup=0&previousSelectedFixtureGroupAgeGroup=&selectedFixtu
+ reGroupKey=1_795786764&previousSelectedFixtureGroupKey=1_795786764&selecte
+ dDateCode=&selectedRelatedFixtureOption=3&selectedClub=&previousSelectedCl
+ ub=&selectedTeam=
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Away Walkover] Lilliput U18 Athletic at Blandford United Youth U1
+ 8
+DTSTART:20251214T133000Z
+DTEND:20251214T153000Z
+DTSTAMP:20260104T145748Z
+UID:3517d4314843c485b60c704c972b8d6948f6d371@football-fixtures-ics
+DESCRIPTION:Competition: Dorset U18 Youth Cup\nType: CC\nStatus/Score: Awa
+ y Walkover A - W\nTable: https://fulltime.thefa.com/table.html?league=3520
+ 598&selectedSeason=582396739&selectedDivision=938310682&selectedCompetitio
+ n=0&selectedFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.
+ com/fixtures/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1
+ _795786764&selectedRelatedFixtureOption=3\nResults: https://fulltime.thefa
+ .com/results/1/100.html?selectedSeason=582396739&selectedFixtureGroupAgeGr
+ oup=0&previousSelectedFixtureGroupAgeGroup=&selectedFixtureGroupKey=1_7957
+ 86764&previousSelectedFixtureGroupKey=1_795786764&selectedDateCode=&select
+ edRelatedFixtureOption=3&selectedClub=&previousSelectedClub=&selectedTeam=
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Postponed] Lilliput U18 Athletic at Westland Sports U18
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
-DTSTAMP:20260103T203450Z
+DTSTAMP:20260104T145748Z
 UID:2c72af3a6286aaa502b3f4075a0b4f67cc007e64@football-fixtures-ics
+DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
+ P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
+ dSeason=582396739&selectedDivision=938310682&selectedCompetition=0&selecte
+ dFixtureGroupKey=1_795786764\nFixtures: https://fulltime.thefa.com/fixture
+ s/1/100.html?selectedSeason=582396739&selectedFixtureGroupKey=1_795786764&
+ selectedRelatedFixtureOption=3\nResults: https://fulltime.thefa.com/result
+ s/1/100.html?selectedSeason=582396739&selectedFixtureGroupAgeGroup=0&previ
+ ousSelectedFixtureGroupAgeGroup=&selectedFixtureGroupKey=1_795786764&previ
+ ousSelectedFixtureGroupKey=1_795786764&selectedDateCode=&selectedRelatedFi
+ xtureOption=3&selectedClub=&previousSelectedClub=&selectedTeam=
+URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
+ 9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lilliput U18 Athletic vs Maiden Newton Youth U18
+DTSTART:20260111T133000Z
+DTEND:20260111T153000Z
+DTSTAMP:20260104T145748Z
+UID:c02e092f409a76852251104ac64c25d0d449aa04@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
  /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
  0682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: 
  https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&se
  lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults:
   https://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&se
- lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+ lectedFixtureGroupAgeGroup=0&previousSelectedFixtureGroupAgeGroup=&selecte
+ dFixtureGroupKey=1_795786764&previousSelectedFixtureGroupKey=1_795786764&s
+ electedDateCode=&selectedRelatedFixtureOption=3&selectedClub=&previousSele
+ ctedClub=&selectedTeam=
 URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
@@ -25,15 +247,18 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic at Christchurch U18
 DTSTART:20260125T140000Z
 DTEND:20260125T160000Z
-DTSTAMP:20260103T203450Z
+DTSTAMP:20260104T145748Z
 UID:d55912d718f867a6f3808d8ca72b9a6bfaf0a47a@football-fixtures-ics
-DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
- /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
- 0682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: 
- https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&se
- lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults:
-  https://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&se
- lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
+ thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
+ ion=938310682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nF
+ ixtures: https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582
+ 396739&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\
+ nResults: https://fulltime.thefa.com/results/1/100.html?selectedSeason=582
+ 396739&selectedFixtureGroupAgeGroup=0&previousSelectedFixtureGroupAgeGroup
+ =&selectedFixtureGroupKey=1_795786764&previousSelectedFixtureGroupKey=1_79
+ 5786764&selectedDateCode=&selectedRelatedFixtureOption=3&selectedClub=&pre
+ viousSelectedClub=&selectedTeam=
 URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
@@ -41,15 +266,18 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic vs Swanage Town And Herston U18
 DTSTART:20260201T140000Z
 DTEND:20260201T160000Z
-DTSTAMP:20260103T203450Z
+DTSTAMP:20260104T145748Z
 UID:c7f4e1e0e5dab12f0debdc59ff7212ff66b29acd@football-fixtures-ics
-DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
- /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
- 0682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nFixtures: 
- https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582396739&se
- lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\nResults:
-  https://fulltime.thefa.com/results/1/100.html?selectedSeason=582396739&se
- lectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
+DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
+ thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
+ ion=938310682&selectedCompetition=0&selectedFixtureGroupKey=1_795786764\nF
+ ixtures: https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=582
+ 396739&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3\
+ nResults: https://fulltime.thefa.com/results/1/100.html?selectedSeason=582
+ 396739&selectedFixtureGroupAgeGroup=0&previousSelectedFixtureGroupAgeGroup
+ =&selectedFixtureGroupKey=1_795786764&previousSelectedFixtureGroupKey=1_79
+ 5786764&selectedDateCode=&selectedRelatedFixtureOption=3&selectedClub=&pre
+ viousSelectedClub=&selectedTeam=
 URL:https://fulltime.thefa.com/fixtures/1/100.html?selectedSeason=58239673
  9&selectedFixtureGroupKey=1_795786764&selectedRelatedFixtureOption=3
 END:VEVENT
