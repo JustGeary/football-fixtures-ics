@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts vs Hamworthy Recreation U18
 DTSTART:20250907T130000Z
 DTEND:20250907T150000Z
-DTSTAMP:20260104T174504Z
+DTSTAMP:20260104T180004Z
 UID:3d81a809ffe2b2e39c15b7e864c4be8f8778eb52@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Poole Town FC We
  ssex U18 Colts 3–1 Hamworthy Recreation U18\nTable: https://fulltime.the
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts vs Swanage Town And Herston U18
 DTSTART:20251005T130000Z
 DTEND:20251005T150000Z
-DTSTAMP:20260104T174504Z
+DTSTAMP:20260104T180004Z
 UID:6f28ea99ef64be8d5b86c0e8eb8162bf1f1ec846@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Poole Town FC We
  ssex U18 Colts 4–0 Swanage Town And Herston U18\nTable: https://fulltime
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts vs Lilliput U18 Athletic
 DTSTART:20251019T130000Z
 DTEND:20251019T150000Z
-DTSTAMP:20260104T174504Z
+DTSTAMP:20260104T180004Z
 UID:6ea5edd65f4d05672dffd5470aa05012a679f074@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Poole Town FC We
  ssex U18 Colts 3–1 Lilliput U18 Athletic\nNotes: (HT 1-1)\nTable: https:
@@ -69,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts vs Christchurch U18
 DTSTART:20251102T140000Z
 DTEND:20251102T160000Z
-DTSTAMP:20260104T174504Z
+DTSTAMP:20260104T180004Z
 UID:af0358406b716e082e92ce4db3acd4d6f4147df9@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Poole Town FC We
  ssex U18 Colts 7–2 Christchurch U18\nTable: https://fulltime.thefa.com/t
@@ -89,7 +89,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts at Swanage Town And Herston U18
 DTSTART:20251109T140000Z
 DTEND:20251109T160000Z
-DTSTAMP:20260104T174504Z
+DTSTAMP:20260104T180004Z
 UID:073748b453b786fb4bf80b4d7d990105ed1406aa@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Swanage Town And
   Herston U18 1–0 Poole Town FC Wessex U18 Colts\nTable: https://fulltime
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts at Holt United Youth U18
 DTSTART:20251116T140000Z
 DTEND:20251116T160000Z
-DTSTAMP:20260104T174504Z
+DTSTAMP:20260104T180004Z
 UID:c2f6b06c9e0e47878d04787db60c6f4eb6d966da@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Holt United Yout
  h U18 4–1 Poole Town FC Wessex U18 Colts\nTable: https://fulltime.thefa.
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts vs Westland Sports U18
 DTSTART:20251130T140000Z
 DTEND:20251130T160000Z
-DTSTAMP:20260104T174504Z
+DTSTAMP:20260104T180004Z
 UID:c49e5dfbb3bd2977211cd7c074970636c61f8bec@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Poole Town FC We
  ssex U18 Colts 2–7 Westland Sports U18\nNotes: (HT 1-2)\nTable: https://
@@ -150,7 +150,7 @@ SUMMARY:[Postponed] Poole Town FC Wessex U18 Colts vs Blandford United You
  th U18
 DTSTART:20251207T140000Z
 DTEND:20251207T160000Z
-DTSTAMP:20260104T174504Z
+DTSTAMP:20260104T180004Z
 UID:f5b2df48e349157d1e57efdde5621b683687665c@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -169,7 +169,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts at Shaftesbury U18
 DTSTART:20251214T133000Z
 DTEND:20251214T153000Z
-DTSTAMP:20260104T174504Z
+DTSTAMP:20260104T180004Z
 UID:d339fe9481863009e6ab433bd56472124bf97c3f@football-fixtures-ics
 DESCRIPTION:Competition: Dorset U18 Youth Cup\nType: CC\nResult: Shaftesbu
  ry U18 3–0 Poole Town FC Wessex U18 Colts\nTable: https://fulltime.thefa
@@ -189,7 +189,7 @@ BEGIN:VEVENT
 SUMMARY:[Postponed] Poole Town FC Wessex U18 Colts vs Portland United U18
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
-DTSTAMP:20260104T174504Z
+DTSTAMP:20260104T180004Z
 UID:ea68f30a5f562866b8411ff7382bff0ca2e4ad10@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -208,7 +208,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts at Christchurch U18
 DTSTART:20260111T140000Z
 DTEND:20260111T160000Z
-DTSTAMP:20260104T174504Z
+DTSTAMP:20260104T180004Z
 UID:1177e607707a89e3edb5639b7d9e2dff9d937e7a@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
@@ -227,7 +227,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts at Westland Sports U18
 DTSTART:20260118T140000Z
 DTEND:20260118T160000Z
-DTSTAMP:20260104T174504Z
+DTSTAMP:20260104T180004Z
 UID:b61c751ce4c134a50d8f12ae2e062fc76ee6ce9b@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
@@ -246,7 +246,7 @@ BEGIN:VEVENT
 SUMMARY:Poole Town FC Wessex U18 Colts vs Holt United Youth U18
 DTSTART:20260125T140000Z
 DTEND:20260125T160000Z
-DTSTAMP:20260104T174504Z
+DTSTAMP:20260104T180004Z
 UID:6b0f63cfe4f1061fe7b5ae3536377e5c1893eb29@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
