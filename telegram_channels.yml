@@ -1,0 +1,22 @@
+# telegram_channels.yml
+# Bot token stays in env var TELEGRAM_BOT_TOKEN (secret, not committed)
+channels:
+  - name: poole-nonadmin
+    chat_id: -1002984118908
+    division_slug: u18-division-1
+
+    # Fixture change alerts: only for this team
+    fixtures_team_filter: "Poole Town FC Wessex U18 Colts"
+
+    # Results alerts: post all league results to this channel
+    results_scope: league          # league | all | none
+
+    enabled: true
+
+  # Example: another team channel
+  # - name: blandford-nonadmin
+  #   chat_id: -1001234567890
+  #   division_slug: u18-division-1
+  #   fixtures_team_filter: "Blandford United Youth U18"
+  #   results_scope: league
+  #   enabled: true

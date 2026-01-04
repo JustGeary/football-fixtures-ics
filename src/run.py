@@ -32,6 +32,28 @@ class DivisionConfig:
     include_teams: Optional[List[str]] = None
 
 
+@dataclass(frozen=True)
+class TelegramChannelConfig:
+    """
+    Per-channel rules.
+
+    fixtures_team_filter:
+        - If set, fixture-change alerts (new/removed/KO/status) are limited to this team.
+        - If blank, fixture-change alerts apply to the whole division.
+
+    results_scope:
+        - "league": send results for match_type == "L"
+        - "all": send results for all matches (league + cups)
+        - "none": do not send results
+    """
+    name: str
+    chat_id: str
+    division_slug: str
+    fixtures_team_filter: Optional[str] = None
+    results_scope: str = "league"  # league | all | none
+    enabled: bool = True
+
+
 @dataclass
 class Match:
     kickoff_local: datetime
@@ -92,9 +114,9 @@ def load_divisions() -> List[DivisionConfig]:
 
         divs.append(
             DivisionConfig(
-                slug=raw["slug"],
-                name=raw["name"],
-                tz=raw.get("timezone", "Europe/London"),
+                slug=str(raw["slug"]).strip(),
+                name=str(raw["name"]).strip(),
+                tz=str(raw.get("timezone", "Europe/London")).strip(),
                 default_duration_min=int(raw.get("default_duration_min", 120)),
                 links=links,
                 include_teams=raw.get("include_teams"),
@@ -105,6 +127,58 @@ def load_divisions() -> List[DivisionConfig]:
         raise RuntimeError("No divisions/*.yml found")
 
     return divs
+
+
+def load_telegram_channels(path: Path = Path("telegram_channels.yml")) -> List[TelegramChannelConfig]:
+    """
+    telegram_channels.yml example:
+
+    channels:
+      - name: poole-nonadmin
+        chat_id: -1002984118908
+        division_slug: u18-division-1
+        fixtures_team_filter: "Poole Town FC Wessex U18 Colts"
+        results_scope: league
+        enabled: true
+    """
+    if not path.exists():
+        return []
+
+    raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    chans = raw.get("channels", [])
+    if not isinstance(chans, list):
+        raise RuntimeError("telegram_channels.yml: 'channels' must be a list")
+
+    out: List[TelegramChannelConfig] = []
+    for c in chans:
+        if not isinstance(c, dict):
+            continue
+
+        name = str(c.get("name", "")).strip()
+        chat_id = str(c.get("chat_id", "")).strip()
+        division_slug = str(c.get("division_slug", "")).strip()
+        enabled = bool(c.get("enabled", True))
+
+        fixtures_team_filter = c.get("fixtures_team_filter")
+        fixtures_team_filter = str(fixtures_team_filter).strip() if fixtures_team_filter else None
+
+        results_scope = str(c.get("results_scope", "league")).strip().lower()
+        if results_scope not in {"league", "all", "none"}:
+            results_scope = "league"
+
+        if name and chat_id and division_slug and enabled:
+            out.append(
+                TelegramChannelConfig(
+                    name=name,
+                    chat_id=chat_id,
+                    division_slug=division_slug,
+                    fixtures_team_filter=fixtures_team_filter,
+                    results_scope=results_scope,
+                    enabled=True,
+                )
+            )
+
+    return out
 
 
 def http_get(url: str, *, timeout: int = 45) -> requests.Response:
@@ -119,7 +193,7 @@ def http_get(url: str, *, timeout: int = 45) -> requests.Response:
     last_exc: Optional[Exception] = None
     for attempt in range(7):
         try:
-            resp = requests.get(url, headers=headers, timeout=timeout)
+            resp = requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
             if resp.status_code == 200:
                 return resp
             if resp.status_code in (429, 500, 502, 503, 504):
@@ -137,14 +211,22 @@ def looks_like_block_page(html: str) -> bool:
     return ("cloudflare" in low and "attention required" in low) or ("access denied" in low) or ("forbidden" in low)
 
 
-def telegram_send(text: str) -> None:
+def telegram_send(text: str, chat_id: Optional[str] = None) -> None:
+    """
+    Uses TELEGRAM_BOT_TOKEN env var.
+    If chat_id not supplied, falls back to TELEGRAM_CHAT_ID env var (single-channel mode).
+    """
     token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
-    chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
-    if not token or not chat_id:
+    if not token:
         return
+
+    cid = (chat_id or os.getenv("TELEGRAM_CHAT_ID", "")).strip()
+    if not cid:
+        return
+
     url = f"https://api.telegram.org/bot{token}/sendMessage"
     try:
-        requests.post(url, json={"chat_id": chat_id, "text": text}, timeout=15)
+        requests.post(url, json={"chat_id": cid, "text": text}, timeout=15)
     except Exception:
         pass
 
@@ -180,6 +262,17 @@ def detect_status_cell(text: str) -> Optional[str]:
     return None
 
 
+def looks_like_competition(text: str) -> bool:
+    t = norm_ws(text).lower()
+    if not t:
+        return False
+    if any(w in t for w in ["division", "cup", "league"]):
+        return True
+    if re.match(r"^u\d{1,2}\b", t):
+        return True
+    return False
+
+
 def is_noise_cell(text: str) -> bool:
     t = norm_ws(text)
     if not t:
@@ -198,17 +291,6 @@ def is_noise_cell(text: str) -> bool:
     return False
 
 
-def looks_like_competition(text: str) -> bool:
-    t = norm_ws(text).lower()
-    if not t:
-        return False
-    if any(w in t for w in ["division", "cup", "league"]):
-        return True
-    if re.match(r"^u\d{1,2}\b", t):
-        return True
-    return False
-
-
 def is_teamish(text: str) -> bool:
     t = norm_ws(text)
     if not t or is_noise_cell(t):
@@ -223,7 +305,7 @@ def is_teamish(text: str) -> bool:
     if detect_status_cell(t):
         return False
 
-    # key safety: don't treat competitions as teams
+    # Avoid competitions being treated as teams (this was the “bleeding teams” issue)
     if looks_like_competition(t):
         return False
 
@@ -301,7 +383,6 @@ def parse_fixtures(html: str, tz: ZoneInfo, division_name: str) -> List[Match]:
         if not " ".join(cells).strip():
             continue
 
-        # ✅ NEW: capture match type from the first column (L / CC)
         match_type = ""
         if cells:
             first = cells[0].strip().upper()
@@ -340,10 +421,10 @@ def parse_fixtures(html: str, tz: ZoneInfo, division_name: str) -> List[Match]:
                 kickoff_local=dt,
                 home=home,
                 away=away,
-                competition=division_name,
+                competition=division_name,   # fixtures comp is the division name
                 status=status,
                 raw_status=raw_status,
-                match_type=match_type,  # ✅ NEW
+                match_type=match_type,
                 source="fixtures",
             )
         )
@@ -362,6 +443,10 @@ def _extract_score(score_text: str) -> Tuple[Optional[int], Optional[int]]:
 
 
 def parse_results_divs(html: str, tz: ZoneInfo, division_name: str) -> List[Match]:
+    """
+    Parses Full-Time "results-table-2" div layout:
+      div.results-table-2 div.tbody div[id^=fixture-] ...
+    """
     soup = BeautifulSoup(html, "html.parser")
     tbody = soup.select_one("div.results-table-2 div.tbody")
     if not tbody:
@@ -373,7 +458,6 @@ def parse_results_divs(html: str, tz: ZoneInfo, division_name: str) -> List[Matc
     for fx in blocks:
         fixture_id = fx.get("id", "") or ""
 
-        # Type: "L" or "CC ..." (often includes cup name in the same text)
         type_el = fx.select_one(".type-col a, .type-col p, .type-col")
         type_text = norm_ws(type_el.get_text(" ", strip=True)) if type_el else ""
         match_type = ""
@@ -382,7 +466,6 @@ def parse_results_divs(html: str, tz: ZoneInfo, division_name: str) -> List[Matc
         elif type_text.upper().startswith("L"):
             match_type = "L"
 
-        # Datetime
         dt_el = fx.select_one(".datetime-col a, .datetime-col")
         dt_txt = norm_ws(dt_el.get_text(" ", strip=True)) if dt_el else ""
         if not dt_txt:
@@ -393,7 +476,6 @@ def parse_results_divs(html: str, tz: ZoneInfo, division_name: str) -> List[Matc
         except Exception:
             continue
 
-        # Teams
         home_el = fx.select_one(".home-team-col .team-name a, .home-team-col a, .home-team-col")
         away_el = fx.select_one(".road-team-col .team-name a, .road-team-col a, .road-team-col")
         home = normalise_team_name(home_el.get_text(" ", strip=True)) if home_el else ""
@@ -401,13 +483,11 @@ def parse_results_divs(html: str, tz: ZoneInfo, division_name: str) -> List[Matc
         if not home or not away:
             continue
 
-        # Competition
         comp_el = fx.select_one(".fg-col p, .fg-col")
         comp = norm_ws(comp_el.get_text(" ", strip=True)) if comp_el else ""
         if not comp:
             comp = division_name
 
-        # Score / Status
         score_el = fx.select_one(".score-col")
         score_text_full = norm_ws(score_el.get_text(" ", strip=True)) if score_el else ""
 
@@ -428,7 +508,6 @@ def parse_results_divs(html: str, tz: ZoneInfo, division_name: str) -> List[Matc
                 status = "Away Walkover"
                 raw_status = "Away Walkover"
             else:
-                # Often: "0 - 2 (HT 0-0)" or "3 - 0"
                 first_part = score_text_full.split("(", 1)[0].strip()
                 rh, ra = _extract_score(first_part)
                 if rh is not None and ra is not None:
@@ -468,7 +547,10 @@ def match_key(m: Match) -> str:
 
 
 def merge(fixtures: List[Match], results: List[Match], division_name: str) -> List[Match]:
-    # ensure fixtures comp stays stable
+    """
+    Merge results onto fixtures, keeping fixtures "competition" as division_name.
+    Results-only rows (e.g. cups not shown in fixtures list) may be added.
+    """
     for f in fixtures:
         f.competition = division_name
 
@@ -594,7 +676,7 @@ def build_team_calendar_bytes(team_name: str, matches: List[Match], div: Divisio
 
 
 # ----------------------------
-# Index
+# Index / Status
 # ----------------------------
 
 def guess_pages_base() -> str:
@@ -690,6 +772,121 @@ def snapshots_equal(a: Any, b: Any) -> bool:
 
 
 # ----------------------------
+# Telegram diff helpers (multi-channel, hybrid rules)
+# ----------------------------
+
+def _snap_key(d: Dict[str, Any]) -> str:
+    fid = (d.get("fixture_id") or "").strip()
+    if fid:
+        return fid
+    ko = (d.get("kickoff_local") or "").strip()
+    home = normalise_team_name(d.get("home", "")).lower()
+    away = normalise_team_name(d.get("away", "")).lower()
+    comp = (d.get("competition") or "").strip().lower()
+    return f"{ko}|{home}|{away}|{comp}"
+
+
+def _involves_team(d: Dict[str, Any], team_filter: Optional[str]) -> bool:
+    if not team_filter:
+        return True
+    tf = normalise_team_name(team_filter).lower()
+    return (
+        normalise_team_name(d.get("home", "")).lower() == tf
+        or normalise_team_name(d.get("away", "")).lower() == tf
+    )
+
+
+def build_change_messages(
+    div_name: str,
+    prev_snap: Optional[List[Dict[str, Any]]],
+    curr_snap: List[Dict[str, Any]],
+    *,
+    fixtures_team_filter: Optional[str] = None,  # applies to fixture changes only
+    results_scope: str = "league",                # league | all | none
+    max_lines: int = 14,
+) -> List[str]:
+    """
+    Hybrid alert rules:
+      - Fixture changes (new/removed/KO/status): filtered by fixtures_team_filter if set.
+      - Results: posted division-wide depending on results_scope (league/all/none).
+    """
+    prev_snap = prev_snap or []
+    prev_map = {_snap_key(d): d for d in prev_snap}
+    curr_map = {_snap_key(d): d for d in curr_snap}
+
+    lines: List[str] = []
+
+    def is_league(d: Dict[str, Any]) -> bool:
+        return (d.get("match_type") or "").upper() == "L"
+
+    def include_result(d: Dict[str, Any]) -> bool:
+        if results_scope == "none":
+            return False
+        if results_scope == "all":
+            return True
+        return is_league(d)
+
+    # Removed fixtures (fixture-change alerts only)
+    for k, p in prev_map.items():
+        if k not in curr_map and _involves_team(p, fixtures_team_filter):
+            lines.append(f"➖ Removed: {p.get('home')} vs {p.get('away')} ({p.get('kickoff_local')})")
+
+    for k, c in curr_map.items():
+        p = prev_map.get(k)
+
+        # New fixture (fixture-change alerts only)
+        if p is None:
+            if _involves_team(c, fixtures_team_filter):
+                lines.append(f"➕ New: {c.get('home')} vs {c.get('away')} ({c.get('kickoff_local')})")
+            continue
+
+        # KO / Status changes (fixture-change alerts only)
+        if _involves_team(c, fixtures_team_filter):
+            p_ko = p.get("kickoff_local")
+            c_ko = c.get("kickoff_local")
+            if p_ko != c_ko:
+                lines.append(f"⏱️ KO change: {c.get('home')} vs {c.get('away')} {p_ko} → {c_ko}")
+
+            p_status = p.get("status")
+            c_status = c.get("status")
+            if p_status != c_status and c_status:
+                lines.append(f"⛔ Status: {c.get('home')} vs {c.get('away')} → {c_status}")
+
+        # Results (division-wide, scope-controlled)
+        if include_result(c):
+            p_rh, p_ra = p.get("result_home"), p.get("result_away")
+            c_rh, c_ra = c.get("result_home"), c.get("result_away")
+
+            prev_has = (p_rh is not None and p_ra is not None)
+            curr_has = (c_rh is not None and c_ra is not None)
+
+            if not prev_has and curr_has:
+                lines.append(f"✅ Result: {c.get('home')} {c_rh}–{c_ra} {c.get('away')} ({c.get('competition')})")
+            elif prev_has and curr_has and (p_rh != c_rh or p_ra != c_ra):
+                lines.append(f"🔁 Result updated: {c.get('home')} {p_rh}–{p_ra} → {c_rh}–{c_ra} {c.get('away')}")
+
+    if not lines:
+        return []
+
+    header = f"📣 {div_name} updates ({now_utc().strftime('%Y-%m-%d %H:%MZ')})"
+
+    # Chunking so we don't exceed comfortable message size
+    chunks: List[List[str]] = []
+    buf: List[str] = [header]
+    for ln in lines[:max_lines]:
+        if len(buf) >= 1 + 18:
+            chunks.append(buf)
+            buf = [header + " (cont.)"]
+        buf.append(ln)
+    chunks.append(buf)
+
+    if len(lines) > max_lines:
+        chunks[-1].append(f"…and {len(lines) - max_lines} more changes.")
+
+    return ["\n".join(c) for c in chunks]
+
+
+# ----------------------------
 # Main
 # ----------------------------
 
@@ -697,6 +894,9 @@ def main() -> None:
     ensure_dirs()
     divisions = load_divisions()
     pages_base = guess_pages_base()
+
+    # Multi-channel config (optional). If file missing, fall back to single-channel env vars.
+    channels = load_telegram_channels()
 
     for div in divisions:
         tz = ZoneInfo(div.tz)
@@ -709,39 +909,91 @@ def main() -> None:
         rs_resp = http_get(results_url)
 
         if fx_resp.status_code != 200 or rs_resp.status_code != 200:
-            telegram_send(f"⚠️ HTTP error ({div.name}): fixtures {fx_resp.status_code}, results {rs_resp.status_code}")
+            msg = f"⚠️ HTTP error ({div.name}): fixtures {fx_resp.status_code}, results {rs_resp.status_code}"
+            # Send to all relevant channels (or fallback env)
+            relevant = [c for c in channels if c.division_slug == div.slug] if channels else []
+            if relevant:
+                for c in relevant:
+                    telegram_send(msg, chat_id=c.chat_id)
+            else:
+                telegram_send(msg)
             continue
 
         fx_html = fx_resp.text
         rs_html = rs_resp.text
 
         if looks_like_block_page(fx_html) or looks_like_block_page(rs_html):
-            telegram_send(f"⚠️ Blocked/denied by Full-Time ({div.name}). Not publishing.")
+            msg = f"⚠️ Blocked/denied by Full-Time ({div.name}). Not publishing."
+            relevant = [c for c in channels if c.division_slug == div.slug] if channels else []
+            if relevant:
+                for c in relevant:
+                    telegram_send(msg, chat_id=c.chat_id)
+            else:
+                telegram_send(msg)
             continue
 
         fixtures = parse_fixtures(fx_html, tz, division_name=division_name)
         results = parse_results_divs(rs_html, tz, division_name=division_name)
 
-        # Debug artifact
+        # local debug artifact (you ignore artifacts/ in git)
         Path(f"artifacts/{div.slug}.results_count.txt").write_text(
-            f"results_parsed={len(results)}\n",
+            f"results_parsed={len(results)}\nfixtures_parsed={len(fixtures)}\n",
             encoding="utf-8",
         )
 
         merged = merge(fixtures, results, division_name=division_name)
 
         if not merged:
-            telegram_send(f"⚠️ Parsed 0 matches ({div.name}). Not publishing.")
+            msg = f"⚠️ Parsed 0 matches ({div.name}). Not publishing."
+            relevant = [c for c in channels if c.division_slug == div.slug] if channels else []
+            if relevant:
+                for c in relevant:
+                    telegram_send(msg, chat_id=c.chat_id)
+            else:
+                telegram_send(msg)
             continue
 
-        snap_path = Path(f"data/{div.slug}.latest.json")
-        prev = load_json(snap_path)
-        curr = division_snapshot(merged)
-        save_json(snap_path, curr)
+        # ---- snapshots + telegram diff ----
+        latest_path = Path(f"data/{div.slug}.latest.json")
+        prev_path = Path(f"data/{div.slug}.prev.json")
 
-        changed = not snapshots_equal(prev, curr)
+        prev_latest = load_json(latest_path)
+        curr_latest = division_snapshot(merged)
 
-        # ✅ KEY FIX: Only publish calendars for teams in LEAGUE fixtures (type "L")
+        if prev_latest is not None:
+            save_json(prev_path, prev_latest)
+
+        save_json(latest_path, curr_latest)
+
+        changed = not snapshots_equal(prev_latest, curr_latest)
+
+        if changed:
+            if channels:
+                for ch in channels:
+                    if ch.division_slug != div.slug:
+                        continue
+                    for m in build_change_messages(
+                        div.name,
+                        prev_latest,
+                        curr_latest,
+                        fixtures_team_filter=ch.fixtures_team_filter,
+                        results_scope=ch.results_scope,
+                    ):
+                        telegram_send(m, chat_id=ch.chat_id)
+            else:
+                # Single-channel fallback (env vars): use TELEGRAM_TEAM_FILTER and TELEGRAM_RESULTS_SCOPE optionally
+                fixtures_team_filter = os.getenv("TELEGRAM_TEAM_FILTER", "").strip() or None
+                results_scope = os.getenv("TELEGRAM_RESULTS_SCOPE", "league").strip().lower()
+                for m in build_change_messages(
+                    div.name,
+                    prev_latest,
+                    curr_latest,
+                    fixtures_team_filter=fixtures_team_filter,
+                    results_scope=results_scope,
+                ):
+                    telegram_send(m)
+
+        # Publish calendars ONLY for teams in LEAGUE fixtures (type "L")
         league_only = [m for m in fixtures if (m.match_type or "").upper() == "L"]
         league_teams = sorted({m.home for m in league_only} | {m.away for m in league_only})
         teams = league_teams
@@ -757,10 +1009,36 @@ def main() -> None:
             Path(f"docs/{slugify(team)}.ics").write_bytes(ics_bytes)
             published += 1
 
+        # Index file (single index for repo; if you later add multiple divisions you may want per-division pages)
         Path("docs/index.html").write_text(build_index(teams, pages_base, div), encoding="utf-8")
 
-        if changed:
-            telegram_send(f"✅ Calendars updated: {div.name} — {published} team calendars")
+        # Status files (handy for troubleshooting)
+        Path("docs/status.json").write_text(
+            json.dumps(
+                {"updated_utc": now_utc().isoformat(), "divisions": [d.slug for d in divisions]},
+                indent=2,
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+
+        Path(f"docs/status_{div.slug}.json").write_text(
+            json.dumps(
+                {
+                    "division": div.slug,
+                    "division_name": div.name,
+                    "updated_utc": now_utc().isoformat(),
+                    "published_team_count": published,
+                    "published_teams": teams,
+                    "results_parsed": len(results),
+                    "fixtures_parsed": len(fixtures),
+                    "snapshot_changed": changed,
+                },
+                indent=2,
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
 
 
 if __name__ == "__main__":
