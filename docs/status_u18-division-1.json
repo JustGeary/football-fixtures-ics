@@ -1,8 +1,20 @@
 {
-  "division": "U18 Division 1",
-  "slug": "u18-division-1",
-  "teams": 13,
-  "matches": 22,
-  "published_calendars": 13,
-  "last_success_utc": "2026-01-03T20:43:02.076418+00:00"
+  "division": "u18-division-1",
+  "division_name": "U18 Division 1",
+  "updated_utc": "2026-01-04T19:20:34.607846+00:00",
+  "published_team_count": 9,
+  "published_teams": [
+    "Blandford United Youth U18",
+    "Christchurch U18",
+    "Hamworthy Recreation U18",
+    "Holt United Youth U18",
+    "Lilliput U18 Athletic",
+    "Poole Town FC Wessex U18 Colts",
+    "Portland United U18",
+    "Swanage Town And Herston U18",
+    "Westland Sports U18"
+  ],
+  "results_parsed": 54,
+  "fixtures_parsed": 22,
+  "snapshot_changed": false
 }
