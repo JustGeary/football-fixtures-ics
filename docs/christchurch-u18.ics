@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Christchurch U18 at Westland Sports U18
 DTSTART:20250907T130000Z
 DTEND:20250907T150000Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:c9ea876adac2803e24b1f784ebeb26d5a98095ef@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Westland Sports 
  U18 2–1 Christchurch U18\nTable: https://fulltime.thefa.com/table.html?l
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:Christchurch U18 at Lilliput U18 Athletic
 DTSTART:20250914T104500Z
 DTEND:20250914T124500Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:b913d26870bd414e9cc5c3feeb10e0f2f6561d72@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Lilliput U18 Ath
  letic 2–3 Christchurch U18\nTable: https://fulltime.thefa.com/table.html
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:Christchurch U18 vs Swanage Town And Herston U18
 DTSTART:20250921T130000Z
 DTEND:20250921T150000Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:2ae3277144f3bb5cbd7d20fe2eb917d66fb66024@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Christchurch U18
   0–2 Swanage Town And Herston U18\nTable: https://fulltime.thefa.com/tab
@@ -69,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY:Christchurch U18 at Holt United Youth U18
 DTSTART:20251005T130000Z
 DTEND:20251005T150000Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:69be73713a6b91f5726b44c91d863bdb49bb7af1@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Holt United Yout
  h U18 9–1 Christchurch U18\nTable: https://fulltime.thefa.com/table.html
@@ -89,7 +89,7 @@ BEGIN:VEVENT
 SUMMARY:Christchurch U18 vs Blandford United Youth U18
 DTSTART:20251012T130000Z
 DTEND:20251012T150000Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:dc6bdd5ab918e6ce9be97c559b30f0685f4e4e13@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Christchurch U18
   3–0 Blandford United Youth U18\nTable: https://fulltime.thefa.com/table
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:Christchurch U18 at Poole Town FC Wessex U18 Colts
 DTSTART:20251102T140000Z
 DTEND:20251102T160000Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:75644ae1bf2943b21fe68d1e4b0277813c52ddc6@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Poole Town FC We
  ssex U18 Colts 7–2 Christchurch U18\nTable: https://fulltime.thefa.com/t
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:Christchurch U18 at Weymouth FC U18 Terras
 DTSTART:20251109T133000Z
 DTEND:20251109T153000Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:af346a7b86300aa44dfc0e66d5032edd784a9a4c@football-fixtures-ics
 DESCRIPTION:Competition: Dorset U18 Youth Cup\nType: CC\nResult: Weymouth 
  FC U18 Terras 4–0 Christchurch U18\nNotes: (HT 1-0)\nTable: https://full
@@ -149,7 +149,7 @@ BEGIN:VEVENT
 SUMMARY:[Postponed] Christchurch U18 at Blandford United Youth U18
 DTSTART:20251123T140000Z
 DTEND:20251123T160000Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:7b1e593f14b36b883e03e920e819e2ca2869f06d@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -168,7 +168,7 @@ BEGIN:VEVENT
 SUMMARY:Christchurch U18 at Portland United U18
 DTSTART:20251130T140000Z
 DTEND:20251130T160000Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:fd8360c5a2497e2a073f1bc7ac690538e09be329@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Portland United 
  U18 1–2 Christchurch U18\nNotes: (HT 1-1)\nTable: https://fulltime.thefa
@@ -188,7 +188,7 @@ BEGIN:VEVENT
 SUMMARY:Christchurch U18 vs Westland Sports U18
 DTSTART:20251214T140000Z
 DTEND:20251214T160000Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:5f6ce712716b3ad5c9660f9341d92399345bcb95@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Christchurch U18
   0–2 Westland Sports U18\nNotes: (HT 0-0)\nTable: https://fulltime.thefa
@@ -208,7 +208,7 @@ BEGIN:VEVENT
 SUMMARY:[Postponed] Christchurch U18 at Swanage Town And Herston U18
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:04f7c26cb93a1d48b86aea9d577ea6d18d1917eb@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -227,7 +227,7 @@ BEGIN:VEVENT
 SUMMARY:Christchurch U18 vs Poole Town FC Wessex U18 Colts
 DTSTART:20260111T140000Z
 DTEND:20260111T160000Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:7a809487531de2c8ff123695152513975847caf4@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
@@ -246,7 +246,7 @@ BEGIN:VEVENT
 SUMMARY:Christchurch U18 vs Portland United U18
 DTSTART:20260118T140000Z
 DTEND:20260118T160000Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:f88fd60c9f32fa045dc3316dccb38ff355ba8453@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
@@ -265,7 +265,7 @@ BEGIN:VEVENT
 SUMMARY:Christchurch U18 vs Lilliput U18 Athletic
 DTSTART:20260125T140000Z
 DTEND:20260125T160000Z
-DTSTAMP:20260104T164504Z
+DTSTAMP:20260104T170003Z
 UID:b074a457affb458d5a98eeb1eadf2aa78f22ddea@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
