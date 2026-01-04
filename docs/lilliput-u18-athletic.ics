@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic at Blandford United Youth U18
 DTSTART:20250907T151500Z
 DTEND:20250907T171500Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:1446591b94bb076ad86078e7311b825f4c2b4cb2@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Blandford United
   Youth U18 2–3 Lilliput U18 Athletic\nTable: https://fulltime.thefa.com/
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic vs Christchurch U18
 DTSTART:20250914T104500Z
 DTEND:20250914T124500Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:89522b29a536c19ca4a4cff6a93c0bf23b8d0a48@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Lilliput U18 Ath
  letic 2–3 Christchurch U18\nTable: https://fulltime.thefa.com/table.html
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic at Holt United Youth U18
 DTSTART:20250921T130000Z
 DTEND:20250921T150000Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:c4bbb300aee281609f4c940754f11265bf96f60b@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Holt United Yout
  h U18 4–0 Lilliput U18 Athletic\nTable: https://fulltime.thefa.com/table
@@ -69,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic vs Westland Sports U18
 DTSTART:20250928T130000Z
 DTEND:20250928T150000Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:30d653533ed1c033f5b7bf5722fdbc9eaaa00ac8@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Lilliput U18 Ath
  letic 2–6 Westland Sports U18\nNotes: (HT 0-1)\nTable: https://fulltime.
@@ -89,7 +89,7 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic at Hamworthy Recreation U18
 DTSTART:20251012T130000Z
 DTEND:20251012T150000Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:4e37d793079e18330bbcebc2fc006261cb57220e@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Hamworthy Recrea
  tion U18 2–3 Lilliput U18 Athletic\nTable: https://fulltime.thefa.com/ta
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic at Poole Town FC Wessex U18 Colts
 DTSTART:20251019T130000Z
 DTEND:20251019T150000Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:d1a4475c2f3eef193919ffc6b0a9ecc46c538d8f@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Poole Town FC We
  ssex U18 Colts 3–1 Lilliput U18 Athletic\nNotes: (HT 1-1)\nTable: https:
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic at Portland United U18
 DTSTART:20251102T140000Z
 DTEND:20251102T160000Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:05547c3d93a16c421f398342c3a86216235cb9c0@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Portland United 
  U18 1–2 Lilliput U18 Athletic\nNotes: (HT 1-0)\nTable: https://fulltime.
@@ -149,7 +149,7 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic vs Hamworthy Recreation U18
 DTSTART:20251116T140000Z
 DTEND:20251116T160000Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:bc46465596c65eeb15a08ba9d19c7a48f9efff7f@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Lilliput U18 Ath
  letic 2–4 Hamworthy Recreation U18\nTable: https://fulltime.thefa.com/ta
@@ -169,7 +169,7 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic vs Holt United Youth U18
 DTSTART:20251123T140000Z
 DTEND:20251123T160000Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:b7716783eb1b356284c70a21dfe4cd331f37732d@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Lilliput U18 Ath
  letic 3–4 Holt United Youth U18\nTable: https://fulltime.thefa.com/table
@@ -190,7 +190,7 @@ SUMMARY:[Away Walkover] Lilliput U18 Athletic at Blandford United Youth U1
  8
 DTSTART:20251214T133000Z
 DTEND:20251214T153000Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:3517d4314843c485b60c704c972b8d6948f6d371@football-fixtures-ics
 DESCRIPTION:Competition: Dorset U18 Youth Cup\nType: CC\nStatus/Score: Awa
  y Walkover A - W\nTable: https://fulltime.thefa.com/table.html?league=3520
@@ -209,7 +209,7 @@ BEGIN:VEVENT
 SUMMARY:[Postponed] Lilliput U18 Athletic at Westland Sports U18
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:2c72af3a6286aaa502b3f4075a0b4f67cc007e64@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -228,7 +228,7 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic vs Maiden Newton Youth U18
 DTSTART:20260111T133000Z
 DTEND:20260111T153000Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:c02e092f409a76852251104ac64c25d0d449aa04@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
  /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
@@ -247,7 +247,7 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic at Christchurch U18
 DTSTART:20260125T140000Z
 DTEND:20260125T160000Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:d55912d718f867a6f3808d8ca72b9a6bfaf0a47a@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
@@ -266,7 +266,7 @@ BEGIN:VEVENT
 SUMMARY:Lilliput U18 Athletic vs Swanage Town And Herston U18
 DTSTART:20260201T140000Z
 DTEND:20260201T160000Z
-DTSTAMP:20260104T181004Z
+DTSTAMP:20260104T181503Z
 UID:c7f4e1e0e5dab12f0debdc59ff7212ff66b29acd@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
