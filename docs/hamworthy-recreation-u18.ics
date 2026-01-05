@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 at Poole Town FC Wessex U18 Colts
 DTSTART:20250907T130000Z
 DTEND:20250907T150000Z
-DTSTAMP:20260104T192034Z
+DTSTAMP:20260105T061005Z
 UID:dba7d3a85ecf1daef15ea80c010fe86e32aa8ebf@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Poole Town FC We
  ssex U18 Colts 3–1 Hamworthy Recreation U18\nTable: https://fulltime.the
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 vs Blandford United Youth U18
 DTSTART:20250914T130000Z
 DTEND:20250914T150000Z
-DTSTAMP:20260104T192034Z
+DTSTAMP:20260105T061005Z
 UID:3f883a77e93ca8dc93067ad1315112817200813b@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Hamworthy Recrea
  tion U18 2–1 Blandford United Youth U18\nTable: https://fulltime.thefa.c
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 vs Holt United Youth U18
 DTSTART:20250928T130000Z
 DTEND:20250928T150000Z
-DTSTAMP:20260104T192034Z
+DTSTAMP:20260105T061005Z
 UID:d12c24af047d4cafd635638b17bfc672a9cec750@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Hamworthy Recrea
  tion U18 3–3 Holt United Youth U18\nTable: https://fulltime.thefa.com/ta
@@ -69,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 at Portland United U18
 DTSTART:20251005T130000Z
 DTEND:20251005T150000Z
-DTSTAMP:20260104T192034Z
+DTSTAMP:20260105T061005Z
 UID:bd44c733c723cdf5edde2a035601334f02015085@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Portland United 
  U18 2–0 Hamworthy Recreation U18\nTable: https://fulltime.thefa.com/tabl
@@ -89,7 +89,7 @@ BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 vs Lilliput U18 Athletic
 DTSTART:20251012T130000Z
 DTEND:20251012T150000Z
-DTSTAMP:20260104T192034Z
+DTSTAMP:20260105T061005Z
 UID:bea1a20904555d2c1d9d074905f4f8bde220b54c@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Hamworthy Recrea
  tion U18 2–3 Lilliput U18 Athletic\nTable: https://fulltime.thefa.com/ta
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 vs Broadstone U18 s
 DTSTART:20251109T123000Z
 DTEND:20251109T143000Z
-DTSTAMP:20260104T192034Z
+DTSTAMP:20260105T061005Z
 UID:0748e272ad20ac8200f148b04ff25c7bd4bf6e7c@football-fixtures-ics
 DESCRIPTION:Competition: Dorset U18 Youth Cup\nType: CC\nResult: Hamworthy
   Recreation U18 9–2 Broadstone U18 s\nTable: https://fulltime.thefa.com/
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 at Lilliput U18 Athletic
 DTSTART:20251116T140000Z
 DTEND:20251116T160000Z
-DTSTAMP:20260104T192034Z
+DTSTAMP:20260105T061005Z
 UID:e17259010f569bd9945f5d7142f81114e4138c9e@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Lilliput U18 Ath
  letic 2–4 Hamworthy Recreation U18\nTable: https://fulltime.thefa.com/ta
@@ -149,7 +149,7 @@ BEGIN:VEVENT
 SUMMARY:[Postponed] Hamworthy Recreation U18 at Blandford United Youth U18
 DTSTART:20251130T140000Z
 DTEND:20251130T160000Z
-DTSTAMP:20260104T192034Z
+DTSTAMP:20260105T061005Z
 UID:e59c83f4180a85dbe1b08743da0db3e8c2dbdc2b@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -169,7 +169,7 @@ SUMMARY:[Home Walkover] Hamworthy Recreation U18 vs Lilliput U17 Giants Re
  d
 DTSTART:20251214T133000Z
 DTEND:20251214T153000Z
-DTSTAMP:20260104T192034Z
+DTSTAMP:20260105T061005Z
 UID:c6df76a6916aa1cdf4c948d658a6c93addcab9c1@football-fixtures-ics
 DESCRIPTION:Competition: Dorset U18 Youth Cup\nType: CC\nStatus/Score: Hom
  e Walkover H - W\nTable: https://fulltime.thefa.com/table.html?league=3520
@@ -188,7 +188,7 @@ BEGIN:VEVENT
 SUMMARY:[Postponed] Hamworthy Recreation U18 at Holt United Youth U18
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
-DTSTAMP:20260104T192034Z
+DTSTAMP:20260105T061005Z
 UID:80bd132118e427bd384d4877224dedb6e2724c63@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -207,7 +207,7 @@ BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 vs Cobham Sports FC U18
 DTSTART:20260111T133000Z
 DTEND:20260111T153000Z
-DTSTAMP:20260104T192034Z
+DTSTAMP:20260105T061005Z
 UID:c10a7a77c024fca1e6ffcd59329d105760921cfd@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
  /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
@@ -226,7 +226,7 @@ BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 vs Swanage Town And Herston U18
 DTSTART:20260118T140000Z
 DTEND:20260118T160000Z
-DTSTAMP:20260104T192034Z
+DTSTAMP:20260105T061005Z
 UID:0fd9ea9d7834cc11c4b0700e480ad2e81638c490@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
@@ -245,7 +245,7 @@ BEGIN:VEVENT
 SUMMARY:Hamworthy Recreation U18 at Westland Sports U18
 DTSTART:20260125T140000Z
 DTEND:20260125T160000Z
-DTSTAMP:20260104T192034Z
+DTSTAMP:20260105T061005Z
 UID:1a383598f2fed141dbf86e38001a16bdac6526dc@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
