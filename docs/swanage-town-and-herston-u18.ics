@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 at Portland United U18
 DTSTART:20250907T130000Z
 DTEND:20250907T150000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:3301081b49e146a589f77a4fda407ab7374f3a4a@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Portland United 
  U18 3–3 Swanage Town And Herston U18\nTable: https://fulltime.thefa.com/
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 at Westland Sports U18
 DTSTART:20250914T130000Z
 DTEND:20250914T150000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:5b665ad6929baa44365f384156a31874b39fa0e7@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Westland Sports 
  U18 0–2 Swanage Town And Herston U18\nTable: https://fulltime.thefa.com/
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 at Christchurch U18
 DTSTART:20250921T130000Z
 DTEND:20250921T150000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:d493028bfefaa571e703d3a0884a0eae25516864@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Christchurch U18
   0–2 Swanage Town And Herston U18\nTable: https://fulltime.thefa.com/tab
@@ -69,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 vs Blandford United Youth U18
 DTSTART:20250928T130000Z
 DTEND:20250928T150000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:ad1161d625bf2f102c89205b05314c5c98e3df73@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Swanage Town And
   Herston U18 3–2 Blandford United Youth U18\nTable: https://fulltime.the
@@ -89,7 +89,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 at Poole Town FC Wessex U18 Colts
 DTSTART:20251005T130000Z
 DTEND:20251005T150000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:cb6564a2073d1e4a768203d4c989ace61da1dbba@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Poole Town FC We
  ssex U18 Colts 4–0 Swanage Town And Herston U18\nTable: https://fulltime
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 at Blandford United Youth U18
 DTSTART:20251102T140000Z
 DTEND:20251102T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:53b9b6e47e7e19ac38a499c821ee06d44dff9e84@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Blandford United
   Youth U18 0–4 Swanage Town And Herston U18\nNotes: (HT 0-4)\nTable: htt
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 vs Poole Town FC Wessex U18 Colts
 DTSTART:20251109T140000Z
 DTEND:20251109T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:557bd30fa1c4b59b224a755f291c1e9335d62021@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Swanage Town And
   Herston U18 1–0 Poole Town FC Wessex U18 Colts\nTable: https://fulltime
@@ -149,7 +149,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 at Holt United Youth U18
 DTSTART:20251130T140000Z
 DTEND:20251130T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:c6a369c844b0e5d7183e94cdc3875589422c7a5a@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Holt United Yout
  h U18 6–2 Swanage Town And Herston U18\nTable: https://fulltime.thefa.co
@@ -169,7 +169,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 at Lilliput U18 Wanderers
 DTSTART:20251214T133000Z
 DTEND:20251214T153000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:362734c8aa7f757900a244890490a2b485e28dbe@football-fixtures-ics
 DESCRIPTION:Competition: Dorset U18 Youth Cup\nType: CC\nResult: Lilliput 
  U18 Wanderers 1–4 Swanage Town And Herston U18\nTable: https://fulltime.
@@ -189,7 +189,7 @@ BEGIN:VEVENT
 SUMMARY:[Postponed] Swanage Town And Herston U18 vs Christchurch U18
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:40db7d7e28629d71f32dfc2b0a46e6408090adb7@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -208,7 +208,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 vs Holt United Youth U18
 DTSTART:20260111T133000Z
 DTEND:20260111T153000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:8eeed3f32fc88d15f8aa968fba30d8be95836788@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
  /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
@@ -227,7 +227,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 at Hamworthy Recreation U18
 DTSTART:20260118T140000Z
 DTEND:20260118T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:a17599ca94e62faada0d9bcdee941c611f83f571@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
@@ -246,7 +246,7 @@ BEGIN:VEVENT
 SUMMARY:Swanage Town And Herston U18 at Lilliput U18 Athletic
 DTSTART:20260201T140000Z
 DTEND:20260201T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:7fa8ee306222900f2fecfff6686f5d9999435a1c@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis

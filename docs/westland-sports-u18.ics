@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Westland Sports U18 vs Christchurch U18
 DTSTART:20250907T130000Z
 DTEND:20250907T150000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:45e4c86582c9462159af532e060f401b0cb5cca1@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Westland Sports 
  U18 2–1 Christchurch U18\nTable: https://fulltime.thefa.com/table.html?l
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:Westland Sports U18 vs Swanage Town And Herston U18
 DTSTART:20250914T130000Z
 DTEND:20250914T150000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:4971b872635cf74ce386389209f1407808fb0d4b@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Westland Sports 
  U18 0–2 Swanage Town And Herston U18\nTable: https://fulltime.thefa.com/
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:Westland Sports U18 at Lilliput U18 Athletic
 DTSTART:20250928T130000Z
 DTEND:20250928T150000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:86f5a56e747cbf73275ce4fbd12472af20a118cc@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Lilliput U18 Ath
  letic 2–6 Westland Sports U18\nNotes: (HT 0-1)\nTable: https://fulltime.
@@ -69,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY:Westland Sports U18 at Blandford United Youth U18
 DTSTART:20251005T130000Z
 DTEND:20251005T150000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:1859e0439c725417d8f9ba5cc83fda8afec63498@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Blandford United
   Youth U18 0–5 Westland Sports U18\nTable: https://fulltime.thefa.com/ta
@@ -89,7 +89,7 @@ BEGIN:VEVENT
 SUMMARY:Westland Sports U18 at Holt United Youth U18
 DTSTART:20251012T130000Z
 DTEND:20251012T150000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:1a9ef1f1f01fa50efdcfd9904a8385b7974ed8d1@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Holt United Yout
  h U18 3–0 Westland Sports U18\nNotes: (HT 1-0)\nTable: https://fulltime.
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:[Home Walkover] Westland Sports U18 vs Axbridge Saxon Youth U17 A
 DTSTART:20251019T130000Z
 DTEND:20251019T150000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:ac0e2801971b88a7901ef983ca05679094ef5e91@football-fixtures-ics
 DESCRIPTION:Competition: U18 County Cup\nType: CC\nStatus/Score: Home Walk
  over H - W\nTable: https://fulltime.thefa.com/table.html?league=3520598&se
@@ -128,7 +128,7 @@ BEGIN:VEVENT
 SUMMARY:Westland Sports U18 vs Portland United U18
 DTSTART:20251109T133000Z
 DTEND:20251109T153000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:9f861feb7c87aa36393c93eef3868af479ddf700@football-fixtures-ics
 DESCRIPTION:Competition: Dorset U18 Youth Cup\nType: CC\nResult: Westland 
  Sports U18 2–3 Portland United U18\nNotes: (HT 1-0)\nTable: https://full
@@ -148,7 +148,7 @@ BEGIN:VEVENT
 SUMMARY:[Home Walkover] Westland Sports U18 vs Castle Cary Youth U17
 DTSTART:20251123T140000Z
 DTEND:20251123T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:9062a3c68f0f85e71e348006be0e417401147d36@football-fixtures-ics
 DESCRIPTION:Competition: U18 County Cup\nType: CC\nStatus/Score: Home Walk
  over H - W\nTable: https://fulltime.thefa.com/table.html?league=3520598&se
@@ -167,7 +167,7 @@ BEGIN:VEVENT
 SUMMARY:Westland Sports U18 at Poole Town FC Wessex U18 Colts
 DTSTART:20251130T140000Z
 DTEND:20251130T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:b450fb108f6ff78a35c1515a49c8745bb79eb025@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Poole Town FC We
  ssex U18 Colts 2–7 Westland Sports U18\nNotes: (HT 1-2)\nTable: https://
@@ -187,7 +187,7 @@ BEGIN:VEVENT
 SUMMARY:Westland Sports U18 at Christchurch U18
 DTSTART:20251214T140000Z
 DTEND:20251214T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:ac977b9a744c7d4c8d73eb5f592c299d250f545e@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Christchurch U18
   0–2 Westland Sports U18\nNotes: (HT 0-0)\nTable: https://fulltime.thefa
@@ -207,7 +207,7 @@ BEGIN:VEVENT
 SUMMARY:[Postponed] Westland Sports U18 vs Lilliput U18 Athletic
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:13401710cb9855a64d696e1bb6ec867ce67b4497@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -226,7 +226,7 @@ BEGIN:VEVENT
 SUMMARY:Westland Sports U18 at Milborne Port Youth U18
 DTSTART:20260111T140000Z
 DTEND:20260111T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:03fae3c379123224030e6a714d205132995c7d6d@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
  /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
@@ -245,7 +245,7 @@ BEGIN:VEVENT
 SUMMARY:Westland Sports U18 vs Poole Town FC Wessex U18 Colts
 DTSTART:20260118T140000Z
 DTEND:20260118T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:c9af709e2d9ff044f4a451df80f753153c7dadf6@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
@@ -264,7 +264,7 @@ BEGIN:VEVENT
 SUMMARY:Westland Sports U18 vs Hamworthy Recreation U18
 DTSTART:20260125T140000Z
 DTEND:20260125T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:72ef6e0e59ca2295cd0d43b663e722c35ea4837e@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
@@ -283,7 +283,7 @@ BEGIN:VEVENT
 SUMMARY:Westland Sports U18 at Portland United U18
 DTSTART:20260201T140000Z
 DTEND:20260201T160000Z
-DTSTAMP:20260107T181004Z
+DTSTAMP:20260108T061004Z
 UID:7fe21eff48f5efafee258a67c3aa32543073e293@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
