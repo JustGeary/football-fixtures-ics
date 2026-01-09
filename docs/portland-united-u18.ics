@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Portland United U18 vs Swanage Town And Herston U18
 DTSTART:20250907T130000Z
 DTEND:20250907T150000Z
-DTSTAMP:20260108T181004Z
+DTSTAMP:20260109T061005Z
 UID:3acde3737f55363680a3ef129277953a9c0fd5cc@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Portland United 
  U18 3–3 Swanage Town And Herston U18\nTable: https://fulltime.thefa.com/
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:Portland United U18 vs Holt United Youth U18
 DTSTART:20250914T130000Z
 DTEND:20250914T150000Z
-DTSTAMP:20260108T181004Z
+DTSTAMP:20260109T061005Z
 UID:8bf2f8f48baf72ecda008ea48fcd64456875ee2b@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Portland United 
  U18 3–1 Holt United Youth U18\nTable: https://fulltime.thefa.com/table.h
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:Portland United U18 vs Hamworthy Recreation U18
 DTSTART:20251005T130000Z
 DTEND:20251005T150000Z
-DTSTAMP:20260108T181004Z
+DTSTAMP:20260109T061005Z
 UID:cd5636383fed2752858838a87802cf30dab78637@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Portland United 
  U18 2–0 Hamworthy Recreation U18\nTable: https://fulltime.thefa.com/tabl
@@ -69,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY:Portland United U18 at Holt United Youth U18
 DTSTART:20251026T140000Z
 DTEND:20251026T160000Z
-DTSTAMP:20260108T181004Z
+DTSTAMP:20260109T061005Z
 UID:1093a8f8fc5e5a53b2c5b8cfa88594a4bfdf42e1@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Holt United Yout
  h U18 4–3 Portland United U18\nTable: https://fulltime.thefa.com/table.h
@@ -89,7 +89,7 @@ BEGIN:VEVENT
 SUMMARY:Portland United U18 vs Lilliput U18 Athletic
 DTSTART:20251102T140000Z
 DTEND:20251102T160000Z
-DTSTAMP:20260108T181004Z
+DTSTAMP:20260109T061005Z
 UID:78c33bd45d5887fdc2841226284da4727a3ae00c@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Portland United 
  U18 1–2 Lilliput U18 Athletic\nNotes: (HT 1-0)\nTable: https://fulltime.
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:Portland United U18 at Westland Sports U18
 DTSTART:20251109T133000Z
 DTEND:20251109T153000Z
-DTSTAMP:20260108T181004Z
+DTSTAMP:20260109T061005Z
 UID:7abc4f94f6c515efafee444848a47261bd59f938@football-fixtures-ics
 DESCRIPTION:Competition: Dorset U18 Youth Cup\nType: CC\nResult: Westland 
  Sports U18 2–3 Portland United U18\nNotes: (HT 1-0)\nTable: https://full
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:[Postponed] Portland United U18 vs Blandford United Youth U18
 DTSTART:20251116T140000Z
 DTEND:20251116T160000Z
-DTSTAMP:20260108T181004Z
+DTSTAMP:20260109T061005Z
 UID:8914004aaa0d92c7704d0efcabc477c0ae95f58c@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -148,7 +148,7 @@ BEGIN:VEVENT
 SUMMARY:Portland United U18 vs Christchurch U18
 DTSTART:20251130T140000Z
 DTEND:20251130T160000Z
-DTSTAMP:20260108T181004Z
+DTSTAMP:20260109T061005Z
 UID:c1a0459513a33f47c3fca98d435613d4db395e33@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Portland United 
  U18 1–2 Christchurch U18\nNotes: (HT 1-1)\nTable: https://fulltime.thefa
@@ -168,7 +168,7 @@ BEGIN:VEVENT
 SUMMARY:Portland United U18 vs Weymouth FC U18 Terras
 DTSTART:20251214T133000Z
 DTEND:20251214T153000Z
-DTSTAMP:20260108T181004Z
+DTSTAMP:20260109T061005Z
 UID:d5461f9432d9254bc7c9ef492019a5efa1032943@football-fixtures-ics
 DESCRIPTION:Competition: Dorset U18 Youth Cup\nType: CC\nResult: Portland 
  United U18 3–1 Weymouth FC U18 Terras\nNotes: (AET\, HT 1-1)\nTable: htt
@@ -188,7 +188,7 @@ BEGIN:VEVENT
 SUMMARY:[Postponed] Portland United U18 at Poole Town FC Wessex U18 Colts
 DTSTART:20260104T140000Z
 DTEND:20260104T160000Z
-DTSTAMP:20260108T181004Z
+DTSTAMP:20260109T061005Z
 UID:69e02d1187ba3688631e0e55027e1e7502d70551@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -207,7 +207,7 @@ BEGIN:VEVENT
 SUMMARY:Portland United U18 at Shaftesbury U18
 DTSTART:20260111T133000Z
 DTEND:20260111T153000Z
-DTSTAMP:20260108T181004Z
+DTSTAMP:20260109T061005Z
 UID:56e54f700ffebfa59fe26e415615feb19f174ef0@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nTable: https://fulltime.thefa.com
  /table.html?league=3520598&selectedSeason=582396739&selectedDivision=93831
@@ -226,7 +226,7 @@ BEGIN:VEVENT
 SUMMARY:Portland United U18 at Christchurch U18
 DTSTART:20260118T140000Z
 DTEND:20260118T160000Z
-DTSTAMP:20260108T181004Z
+DTSTAMP:20260109T061005Z
 UID:636d752889f45aba70ed6f73fef4a9e579f26648@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
@@ -245,7 +245,7 @@ BEGIN:VEVENT
 SUMMARY:Portland United U18 vs Westland Sports U18
 DTSTART:20260201T140000Z
 DTEND:20260201T160000Z
-DTSTAMP:20260108T181004Z
+DTSTAMP:20260109T061005Z
 UID:88e2139c4d6c072d453550b549c6451c7789374d@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nTable: https://fulltime.
  thefa.com/table.html?league=3520598&selectedSeason=582396739&selectedDivis
