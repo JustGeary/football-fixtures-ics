@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Blandford United Youth U18 vs Lilliput U18 Athletic
 DTSTART:20250907T151500Z
 DTEND:20250907T171500Z
-DTSTAMP:20260109T181007Z
+DTSTAMP:20260110T061004Z
 UID:94ac32db2e39ded713ffbe67c0b65dd2958c27bf@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Blandford United
   Youth U18 2–3 Lilliput U18 Athletic\nTable: https://fulltime.thefa.com/
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:Blandford United Youth U18 at Hamworthy Recreation U18
 DTSTART:20250914T130000Z
 DTEND:20250914T150000Z
-DTSTAMP:20260109T181007Z
+DTSTAMP:20260110T061004Z
 UID:bb43f27090009429d2f0fcf0153aa021c12ea0f2@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Hamworthy Recrea
  tion U18 2–1 Blandford United Youth U18\nTable: https://fulltime.thefa.c
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:Blandford United Youth U18 at Swanage Town And Herston U18
 DTSTART:20250928T130000Z
 DTEND:20250928T150000Z
-DTSTAMP:20260109T181007Z
+DTSTAMP:20260110T061004Z
 UID:06a305a629c974462961c0f9331f74b07a374160@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Swanage Town And
   Herston U18 3–2 Blandford United Youth U18\nTable: https://fulltime.the
@@ -69,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY:Blandford United Youth U18 vs Westland Sports U18
 DTSTART:20251005T130000Z
 DTEND:20251005T150000Z
-DTSTAMP:20260109T181007Z
+DTSTAMP:20260110T061004Z
 UID:4f2e5355ce1e075eb76578e2f775c4f3a571e822@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Blandford United
   Youth U18 0–5 Westland Sports U18\nTable: https://fulltime.thefa.com/ta
@@ -89,7 +89,7 @@ BEGIN:VEVENT
 SUMMARY:Blandford United Youth U18 at Christchurch U18
 DTSTART:20251012T130000Z
 DTEND:20251012T150000Z
-DTSTAMP:20260109T181007Z
+DTSTAMP:20260110T061004Z
 UID:d142b593c65c2eb1199b2dffb063ecbca59292bc@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Christchurch U18
   3–0 Blandford United Youth U18\nTable: https://fulltime.thefa.com/table
@@ -109,7 +109,7 @@ BEGIN:VEVENT
 SUMMARY:Blandford United Youth U18 vs Holt United Youth U18
 DTSTART:20251019T153000Z
 DTEND:20251019T173000Z
-DTSTAMP:20260109T181007Z
+DTSTAMP:20260110T061004Z
 UID:5f5de0f8bb4f597240622fd97d4fea7c4725c6b7@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Blandford United
   Youth U18 1–8 Holt United Youth U18\nTable: https://fulltime.thefa.com/
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:Blandford United Youth U18 vs Swanage Town And Herston U18
 DTSTART:20251102T140000Z
 DTEND:20251102T160000Z
-DTSTAMP:20260109T181007Z
+DTSTAMP:20260110T061004Z
 UID:7768112400bc008d54a6c5240fbf9ebeea61f877@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nResult: Blandford United
   Youth U18 0–4 Swanage Town And Herston U18\nNotes: (HT 0-4)\nTable: htt
@@ -149,7 +149,7 @@ BEGIN:VEVENT
 SUMMARY:[Postponed] Blandford United Youth U18 at Portland United U18
 DTSTART:20251116T140000Z
 DTEND:20251116T160000Z
-DTSTAMP:20260109T181007Z
+DTSTAMP:20260110T061004Z
 UID:f50bb8344adda375d2ac4a219470c0a29f6e08e1@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -168,7 +168,7 @@ BEGIN:VEVENT
 SUMMARY:[Postponed] Blandford United Youth U18 vs Christchurch U18
 DTSTART:20251123T140000Z
 DTEND:20251123T160000Z
-DTSTAMP:20260109T181007Z
+DTSTAMP:20260110T061004Z
 UID:da137a196823bd10f683a31721914a12bb6c0e33@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -187,7 +187,7 @@ BEGIN:VEVENT
 SUMMARY:[Postponed] Blandford United Youth U18 vs Hamworthy Recreation U18
 DTSTART:20251130T140000Z
 DTEND:20251130T160000Z
-DTSTAMP:20260109T181007Z
+DTSTAMP:20260110T061004Z
 UID:ec69fde661d7e4f5cebd23eb53213d77b44240bf@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -207,7 +207,7 @@ SUMMARY:[Postponed] Blandford United Youth U18 at Poole Town FC Wessex U18
   Colts
 DTSTART:20251207T140000Z
 DTEND:20251207T160000Z
-DTSTAMP:20260109T181007Z
+DTSTAMP:20260110T061004Z
 UID:0fde9b2014ce3e3c54c05ced2a5ddb56ac06ae9f@football-fixtures-ics
 DESCRIPTION:Competition: U18 Division 1\nType: L\nStatus/Score: Postponed 
  P - P\nTable: https://fulltime.thefa.com/table.html?league=3520598&selecte
@@ -227,7 +227,7 @@ SUMMARY:[Away Walkover] Blandford United Youth U18 vs Lilliput U18 Athleti
  c
 DTSTART:20251214T133000Z
 DTEND:20251214T153000Z
-DTSTAMP:20260109T181007Z
+DTSTAMP:20260110T061004Z
 UID:91481cd74223cd1f04fa1777150d6169937bb40b@football-fixtures-ics
 DESCRIPTION:Competition: Dorset U18 Youth Cup\nType: CC\nStatus/Score: Awa
  y Walkover A - W\nTable: https://fulltime.thefa.com/table.html?league=3520
